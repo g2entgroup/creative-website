@@ -96,12 +96,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
             to: 'blog', 
             label: 'Pricing', 
             position: 'left',
@@ -112,48 +106,13 @@ const config = {
             position: 'left',
           },
           {
-            type: 'dropdown',
-            label: 'Collections',
-            position: 'left',
-            items: [
-              {
-                href: "https://kidz.creativeplatform.xyz",
-                label: "CREATIVE KIDZ ⌐◨-◨",
-              },
-              {
-                href:"https://urbanuprisecrew.com",
-                label: "Urban Uprise Crew",
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            label: 'Media',
-            position: 'left',
-            items: [
-              {
-                href: "https://news.creativeplatform.xyz",
-                label: "News",
-              },
-              {
-                href: "https://blog.creativeplatform.xyz",
-                label: "Blog",
-              },
-            ],
-          },
-          {
-            href: "https://vote.creativeplatform.xyz",
-            label: 'Vote',
-            position: 'left', 
+            href: "https://news.creativeplatform.xyz/subscribe",
+            label: "Get Updates",
+            position: "right",
           },
           {
             href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
             label: "Podcast",
-            position: "right",
-          },
-          {
-            href: "https://news.creativeplatform.xyz/subscribe",
-            label: "Get Updates",
             position: "right",
           },
           {
@@ -169,8 +128,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: "Twitter",
-                href: "https://twitter.com/creativecrtv",
+                label: "Warpcast",
+                href: "https://warpcast.com/thecreative.eth",
               },
               {
                 label: "Instagram",
@@ -191,16 +150,12 @@ const config = {
             items: [
               {
                 href: "https://memberships.creativeplatform.xyz",
-                label: "CREATIVE Membership",
+                label: "Members",
                 
               },
               {
-                href: "https://kidz.creativeplatform.xyz",
-                label: "CREATIVE KIDZ ⌐◨-◨",
-              },
-              {
-                href: "https://urbanuprisecrew.com/",
-                label: "Urban Uprise Crew",
+                href: "https://marketplace.urbanuprisecrew.com/",
+                label: "UUC",
               },
             ]
           },
@@ -217,7 +172,7 @@ const config = {
             title: 'Resources',
             items: [
               {
-                label: 'Guide',
+                label: 'Docs',
                 to: '/docs/intro',
               },
               {
@@ -227,6 +182,10 @@ const config = {
               {
                 label: 'Terms & Conditions',
                 to: 'docs/legal/terms-conditions',
+              },
+              {
+                label: 'Blog',
+                href: 'https://blog.creativeplatform.xyz',
               },
               {
                 href: 'https://github.com/creativeplatform',
