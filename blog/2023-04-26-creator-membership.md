@@ -2,10 +2,7 @@
 slug: creator-membership
 title: 🪪 Creator Membership
 authors:
-  name: G2
-  title: Founder/CEO
-  url: https://github.com/sirgawain0x
-  image_url: https://github.com/sirgawain0x.png
+  - g2
 tags: [membership, creator]
 ---
 

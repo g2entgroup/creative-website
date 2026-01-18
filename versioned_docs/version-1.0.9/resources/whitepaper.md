@@ -692,7 +692,7 @@ The project team worked on brainstorming, design wireframes, and prototypes for 
 
 ‌
 
-### **Genesis (12/21/2020)**
+### **Genesis (12/21/2020)** {#genesis-12-21-2020}
 
 ‌
 
@@ -840,7 +840,7 @@ Protocol Labs. FIlecoin: A CreativeSP Network. 2017. [https://bit.ly/3gIz7O0](ht
 
 ‌
 
-Singleton, Micah. This was Sony Music's contract with Spotify. 9 May 2015. <[https://bit.ly/3opLRMd\&gt](https://bit.ly/3opLRMd\&gt);.
+Singleton, Micah. This was Sony Music's contract with Spotify. 9 May 2015. [https://bit.ly/3opLRMd](https://bit.ly/3opLRMd).
 
 ‌
 
@@ -848,7 +848,7 @@ Specifications Documentation. OMI Requirements Documentation Minimum Viable Inte
 
 ‌
 
-Tam, Simon S. Music Industry Quotes. 08 02 2020. <[https://www.goodreads.com/quotes/tag/music-industry\&gt](https://www.goodreads.com/quotes/tag/music-industry\&gt);.
+Tam, Simon S. Music Industry Quotes. 08 02 2020. [https://www.goodreads.com/quotes/tag/music-industry](https://www.goodreads.com/quotes/tag/music-industry).
 
 ‌
 
