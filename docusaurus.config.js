@@ -75,20 +75,11 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Introducing our brand new decentralized notification channels, <strong>The Creative Notifications</strong> and <strong>The Creative</strong> using <strong><a target="_blank" rel="noopener noreferrer" href="https://push.org">push.org</a></strong>!',
+          'Built for creators, by creators. Dive into <strong><a target="_blank" rel="noopener noreferrer" href="https://tv,creativeplatform.xyz">Creative TV</a></strong>, the official flagship app of our DAO ecosystem.',
         backgroundColor: '#2B1A20',
         textColor: '#52F761',
-        isCloseable: false,
+        isCloseable: true,
       },
-      image: "img/Creative_logo-200.svg",
-      metadata: [
-        { name: "og:type", content: "website" },
-        { name: "og:site_name", content: "The Creative" },
-        { name: "twitter:site", content: "@creativecrtv" },
-        { name: "twitter:title", content:"theCREATIVE.eth"},
-        { name: "twitter:description", content: "A collective of developers and creatives contributing to the Creative Platform, with a common goal of blockchain technology & making the entertainment industry a better workspace for creativity."},
-        { name: "twitter:image", content: "/img/mocs/Creative_Concert.png"}
-      ],
       navbar: {
         title: 'CREATIVE',
         logo: {
