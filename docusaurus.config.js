@@ -75,7 +75,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Built for creators, by creators. Dive into <strong><a target="_blank" rel="noopener noreferrer" href="https://tv,creativeplatform.xyz">Creative TV</a></strong>, the official flagship app of our DAO ecosystem.',
+          'Built for creators, by creators. Dive into <strong><a target="_blank" rel="noopener noreferrer" href="https://tv.creativeplatform.xyz">Creative TV</a></strong>, the official flagship app of our DAO ecosystem.',
         backgroundColor: '#2B1A20',
         textColor: '#52F761',
         isCloseable: true,
