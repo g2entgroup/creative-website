@@ -30,6 +30,43 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /*--------------------------------------------------------------
+# Navbar Title Font - Conthrax
+--------------------------------------------------------------*/
+
+/* Conthrax font - SemiBold Regular */
+@font-face {
+  font-family: 'Conthrax';
+  src: url('/fonts/ConthraxSB-Regular.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.navbar__title,
+.navbar__brand,
+.navbar__logo-text {
+  font-family: 'Conthrax', sans-serif;
+}
+
+/* Reorder color mode toggle to appear before search */
+.navbar__items--right {
+  display: flex;
+  align-items: center;
+}
+
+/* Search bar - set order to 2 so it appears after color mode toggle */
+.navbar__items--right .navbar__search {
+  order: 2;
+}
+
+/* Color mode toggle - set order to 1 so it appears before search */
+.navbar__items--right button[class*="clean-btn"][aria-label*="dark"],
+.navbar__items--right button[class*="clean-btn"][aria-label*="light"],
+.navbar__items--right [class*="colorModeToggle"] {
+  order: 1;
+}
+
+/*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 >>> TABLE OF CONTENTS:
