@@ -26,6 +26,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/g2entgroup/creative-website/',
+          sidebarCollapsible: true,
         },
         blog: {
 
@@ -75,7 +76,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Built for creators, by creators. Dive into <strong><a target="_blank" rel="noopener noreferrer" href="https://tv.creativeplatform.xyz">Creative TV</a></strong>, the official flagship app of our DAO ecosystem.',
+          'The Web3 platform for creators, fans and brands.<strong><a target="_blank" rel="noopener noreferrer" href="https://tv.creativeplatform.xyz"> Launch Creative TV</a></strong>',
         backgroundColor: '#2B1A20',
         textColor: '#52F761',
         isCloseable: true,
@@ -88,28 +89,52 @@ const config = {
         },
         items: [
           {
-            to: 'blog', 
-            label: 'Pricing', 
+            to: '/creators',
+            label: 'Creators',
             position: 'left',
           },
           {
-            href:"https://app.creativeplatform.xyz",
-            label: 'Access Software',
+            to: '/fans',
+            label: 'Fans',
             position: 'left',
           },
           {
-            href: "https://news.creativeplatform.xyz/subscribe",
-            label: "Get Updates",
-            position: "right",
+            to: '/brands',
+            label: 'Brands',
+            position: 'left',
           },
           {
-            href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
-            label: "Podcast",
-            position: "right",
+            to: '/how-it-works',
+            label: 'How it Works',
+            position: 'left',
           },
           {
-            type: 'docsVersionDropdown',
-            position: "right",
+            type: 'dropdown',
+            label: 'Launch Apps',
+            position: 'right',
+            items: [
+              {
+                href: "https://app.creativeplatform.xyz",
+                label: "Creative App",
+              },
+              {
+                href: "https://tv.creativeplatform.xyz",
+                label: "Creative TV",
+              },
+              {
+                href: "https://news.creativeplatform.xyz/subscribe",
+                label: "Get Updates",
+              },
+            ],
+          },
+          // {
+          //   href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
+          //   label: "Podcast",
+          //   position: "right",
+          // },
+          {
+            type: 'search',
+            position: 'right',
           },
         ],
       },
@@ -120,8 +145,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: "Warpcast",
-                href: "https://warpcast.com/thecreative.eth",
+                label: "Farcaster",
+                href: "https://farcaster.xyz/thecreative.eth",
               },
               {
                 label: "Instagram",
@@ -141,7 +166,7 @@ const config = {
             title: 'Collections',
             items: [
               {
-                href: "https://memberships.creativeplatform.xyz",
+                href: "https://join.creativeplatform.xyz",
                 label: "Members",
                 
               },

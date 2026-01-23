@@ -1,0 +1,38 @@
+.versionDropdown {
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  background-color: var(--ifm-background-surface-color);
+}
+
+.versionLabel {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.versionSelect {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.versionSelect:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.versionSelect:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 2px var(--ifm-color-primary-light);
+}

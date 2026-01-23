@@ -19,18 +19,18 @@ const FeaturesOne = () => {
                         <div className="cta-three__content">
                             <div className="block-title text-left">
                                 <span className="block-title__bubbles"></span>
-                                <p>Multi-Marketplace Features</p>
-                                <h3>Control Everything From One Application</h3>
+                                <p>Creative Platform Apps</p>
+                                <h3>One platform. Multiple apps.</h3>
                             </div>
-        <img src="img/mocs/marketplaces.png" alt="" className="cta-three__moc" />
+                        <img src="img/mocs/marketplaces.png" alt="" className="cta-three__moc" />
                             <div className="cta-three__box-wrap">
                                 <div className="cta-three__box">
                                     <div className="cta-three__box-icon">
                                         <i>{store}</i>
                                     </div>
                                     <div className="cta-three__box-content">
-                                        <h3>Mint To Multiple NFT Marketplaces</h3>
-                                        <p>Achieve minting to multiple NFT marketplaces with the click of a single button.</p>
+                                        <h3>Designed to Help You Grow</h3>
+                                        <p>Build your audience and expand your reach on your own terms.</p>
                                     </div>
                                 </div>
                                 <div className="cta-three__box">
@@ -38,8 +38,8 @@ const FeaturesOne = () => {
                                         <i>{cashRegister}</i>
                                     </div>
                                     <div className="cta-three__box-content">
-                                        <h3>Increase NFT Sale Royalties</h3>
-                                        <p>Increase your NFT sale royalties by minting to all the major NFT marketplaces on multiple blockchains.</p>
+                                        <h3>Built for Creator Earnings</h3>
+                                        <p> Monentize content and engagement directly, without platfrom lock-in.</p>
                                     </div>
                                 </div>
                             </div>
