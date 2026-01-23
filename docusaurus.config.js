@@ -115,23 +115,30 @@ const config = {
             items: [
               {
                 href: "https://app.creativeplatform.xyz",
-                label: "Creative App",
+                label: "Creative Directory",
               },
               {
                 href: "https://tv.creativeplatform.xyz",
                 label: "Creative TV",
               },
               {
+                href: "https://bank.creativeplatform.xyz",
+                label: "Creative Bank",
+              },
+              {
                 href: "https://news.creativeplatform.xyz/subscribe",
-                label: "Get Updates",
+                label: "News",
+              },
+              {
+                href: "https://beatme.creativeplatform.xyz",
+                label: "Beat Me",
+              },
+              {
+                href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
+                label: "Podcast",
               },
             ],
           },
-          // {
-          //   href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
-          //   label: "Podcast",
-          //   position: "right",
-          // },
           {
             type: 'search',
             position: 'right',
@@ -173,15 +180,6 @@ const config = {
               {
                 href: "https://marketplace.urbanuprisecrew.com/",
                 label: "UUC",
-              },
-            ]
-          },
-          {
-            title: 'Partner Solutions',
-            items: [
-              {
-                label:"T-Mobile for Business",
-                href: "https://mdm.creativeplatform.xyz",
               },
             ]
           },

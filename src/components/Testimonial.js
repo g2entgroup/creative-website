@@ -1,9 +1,9 @@
-import React,{ useState } from 'react';
+import React,{ useState, useEffect } from 'react';
 import Swiper from 'react-id-swiper';
 import '../css/swiper/swiper.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft, faAngleRight, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const leftArrow = <FontAwesomeIcon icon={faAngleLeft} />
 const rightArrow = <FontAwesomeIcon icon={faAngleRight} />
@@ -11,6 +11,22 @@ const rightArrow = <FontAwesomeIcon icon={faAngleRight} />
 const Testimonial = () => {
 
     const [swiper, setSwiper] = useState(null);
+
+    const swiperParams = {
+        getSwiper: setSwiper,
+        pagination: {
+            el: '.testimonials-pagination',
+            clickable: true,
+            dynamicBullets: true
+        }
+    };
+
+    // Debug: Log when component mounts
+    useEffect(() => {
+        console.log('Testimonial component mounted');
+        const paginationEl = document.querySelector('.testimonials-pagination');
+        console.log('Pagination element:', paginationEl);
+    }, []);
 
       const goNext = () => {
         if (swiper !== null) {
@@ -81,72 +97,56 @@ const Testimonial = () => {
                         <Col lg={6}>
                             <div className="block-title text-left">
                                 <span className="block-title__bubbles"></span>
-                                <p>Checkout Latest Posts</p>
-                                <h3>What Our Clients Are Saying</h3>
+                                <p>Real Creators. Real Results.</p>
+                                <h3>Why Creators are Choosing Creative</h3>
+                            </div>
+                            <div className="swipe-hint-indicator">
+                                <FontAwesomeIcon icon={faChevronLeft} className="swipe-hint-chevron swipe-hint-chevron-left" />
+                                <span className="swipe-hint-text">Swipe to view more</span>
+                                <FontAwesomeIcon icon={faChevronRight} className="swipe-hint-chevron swipe-hint-chevron-right" />
                             </div>
                             <ul className="slider testimonials-slider">
 
-                                <Swiper getSwiper={setSwiper}>
+                                <Swiper {...swiperParams}>
 
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>I've found Creative to be the seamless integration that my career has needed for a long time. I've been a self-published songwriter since 2010, but never signed a major publishing deal due to the risk of leveraging my entire catalogue for little to no promotional advertisement - which usually resulted in less placement opportunities.
-                                                Being able to earn direct income-today, from streaming my music is a game changer every artist should experience..</p>
-                                            <h3>I.D.</h3>
+                                            <p>Creative gave me a way to earn directly from my work without giving up control. After years of self-publishing, it finally feels like the platform is working for me, not the other way around.</p>
+                                            <h3>I.D., Independent Hip-Hop Artist</h3>
                                         </div>
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>This is due to their excellent service, competitive pricing and
-                                                customer support. It’s
-                                                throughly refresing to get such a personal touch. Duis aute irure
-                                                dolor in reprehenderit
-                                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            <h3>Terrilyn Werme</h3>
+                                            <p>My production speed tripled overnight. I had a folder full of lyrics but no time to shoot videos. Using the AI agents on the Creative Platform, I turned my text into full visualizers in minutes. It feels like having a production studio in my pocket. This is the future of content creation.</p>
+                                            <h3>Terrilyn Werme, Digital Artist & Producer</h3>
                                         </div>
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>This is due to their excellent service, competitive pricing and
-                                                customer support. It’s
-                                                throughly refresing to get such a personal touch. Duis aute irure
-                                                dolor in reprehenderit
-                                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            <h3>Kyle Demayo</h3>
+                                            <p>The easiest bridge between crypto and cash. Most Web3 platforms are too complicated for my team. Creative Bank made it simple to manage our earnings and move between crypto and fiat without the headache. It’s the first financial dashboard that actually understands what a creator needs.</p>
+                                            <h3>Kyle Demayo, DAO Founder</h3>
                                         </div>
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>This is due to their excellent service, competitive pricing and
-                                                customer support. It’s
-                                                throughly refresing to get such a personal touch. Duis aute irure
-                                                dolor in reprehenderit
-                                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            <h3>Minta Hadad</h3>
+                                            <p>Enterprise-grade trust for independent creators. In an era of deepfakes, provenance is everything. Creative Platform’s integration of C2PA standards ensures that our brand collaborations are verified and secure. It’s the safety of Web2 with the innovation of Web3.</p>
+                                            <h3>Minta Hadad, Brand Partnerships Director</h3>
                                         </div>
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>This is due to their excellent service, competitive pricing and
-                                                customer support. It’s
-                                                throughly refresing to get such a personal touch. Duis aute irure
-                                                dolor in reprehenderit
-                                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            <h3>Sherman Cibrian</h3>
+                                            <p>I built Creative Platform because I was tired of waiting on labels. I wanted a factory of AI agents that could handle the business so I could handle the music.</p>
+                                            <h3>G2, Founder</h3>
                                         </div>
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>This is due to their excellent service, competitive pricing and
-                                                customer support. It’s
-                                                throughly refresing to get such a personal touch. Duis aute irure
-                                                dolor in reprehenderit
-                                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            <h3>Adrianne Hagans</h3>
+                                            <p>It’s like having a CFO in my pocket. Creatives are usually great at art but struggle with the business side. Creative Bank changed that for me. I can finally track my royalties, manage payouts to my collaborators, and secure my assets in one dashboard. It turns my catalog from a hobby into a verifiable business.</p>
+                                            <h3>Gary Eyrich,Producer & Label Owner</h3>
                                         </div>
                                     </li>
                                 </Swiper>
-
+                                <div className="swiper-pagination testimonials-pagination"></div>
 
                                 <div className="testimonial_pagination">
                                     <div className="testimonials-slider-pager-one testimonials-slider-pager-two" onClick={goPrev}>

@@ -13,12 +13,12 @@ const FeaturesTwo = () => {
                                 <div className="cta-two__content">
                                     <div className="block-title text-left">
                                         <span className="block-title__bubbles"></span>
-                                        <p>Create Direct with Brands</p>
-                                        <h3>Discover the Powerful Tools to Boost Your Creative Career</h3>
+                                        <p>Creator Growth</p>
+                                        <h3>Grow Your Audience & Income</h3>
                                     </div>
 <img src="img/mocs/brands.png" alt="" className="cta-two__moc" />
-                                    <p>Boost your reputation, visibility, and fanbase by collaborating directly with the brands that you know and love.</p>
-                                    <a href="#videoOne" data-target="#videoOne" className="thm-btn cta-two__btn scroll-to-target">Discover More</a>
+                                    <p>One ecosystem built to support your creative momentum, by bridging creation, community and earning together.</p>
+                                    <a href="#videoOne" data-target="#videoOne" className="thm-btn cta-two__btn scroll-to-target">Watch the Video</a>
                                 </div>
                             </Col>
                         </Row>

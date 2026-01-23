@@ -117,6 +117,15 @@
     .contact-one__shape-1 {
         display: none;
     }
+    /* Show swipe hint indicator on tablet */
+    .swipe-hint-indicator {
+        display: flex;
+    }
+    /* Show pagination on tablet */
+    .testimonials-slider .swiper-pagination,
+    .testimonials-pagination {
+        display: block;
+    }
 }
 
 @media(max-width: 767px) {
@@ -137,6 +146,15 @@
     }
     .video-one__content .video-popup {
         margin-bottom: 20px;
+    }
+    /* Show swipe hint indicator on mobile */
+    .swipe-hint-indicator {
+        display: flex;
+    }
+    /* Show pagination on mobile */
+    .testimonials-slider .swiper-pagination,
+    .testimonials-pagination {
+        display: block;
     }
 }
 
