@@ -39,7 +39,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 /* Conthrax font - SemiBold Regular */
 @font-face {
   font-family: 'Conthrax';
-  src: url('/fonts/ConthraxSB-Regular.otf') format('opentype');
+  src: url('./fonts/ConthraxSb-Regular.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
