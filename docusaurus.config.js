@@ -114,10 +114,6 @@ const config = {
             position: 'right',
             items: [
               {
-                href: "https://app.creativeplatform.xyz",
-                label: "Creative Directory",
-              },
-              {
                 href: "https://tv.creativeplatform.xyz",
                 label: "Creative TV",
               },
@@ -127,7 +123,7 @@ const config = {
               },
               {
                 href: "https://news.creativeplatform.xyz/subscribe",
-                label: "News",
+                label: "Dear Creative",
               },
               {
                 href: "https://beatme.creativeplatform.xyz",
@@ -137,6 +133,10 @@ const config = {
                 href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
                 label: "Podcast",
               },
+              {
+                href: "https://app.creativeplatform.xyz",
+                label: "Terminal",
+              }
             ],
           },
           {
@@ -166,20 +166,6 @@ const config = {
               {
                 label: "Telegram",
                 href: "https://t.me/+PaiZoO2ojAAyOGRh"
-              },
-            ]
-          },
-          {
-            title: 'Collections',
-            items: [
-              {
-                href: "https://join.creativeplatform.xyz",
-                label: "Members",
-                
-              },
-              {
-                href: "https://marketplace.urbanuprisecrew.com/",
-                label: "UUC",
               },
             ]
           },

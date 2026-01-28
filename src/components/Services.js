@@ -16,7 +16,7 @@ const Services = () => {
                     <div className="block-title text-center">
                         <span className="block-title__bubbles"></span>
                         <p>What You Can Do</p>
-                        <h3>Built to Create, Connect, and Earn</h3>
+                        <h3>Create. Distribute. Earn.</h3>
                     </div>
                     <Row>
 
