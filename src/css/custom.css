@@ -1678,6 +1678,57 @@ h4 {
 	pointer-events: auto !important;
 }
 
+/* Keep footer columns in two columns on mobile */
+.footer__links {
+	display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: wrap !important;
+	gap: 2rem !important;
+}
+
+.footer__col {
+	flex: 1 1 calc(50% - 1rem) !important;
+	min-width: 0 !important;
+	max-width: calc(50% - 1rem) !important;
+}
+
+/* Override any grid layout that Docusaurus might use */
+.footer__links[class*="grid"],
+.footer__links[class*="row"] {
+	display: flex !important;
+	flex-direction: row !important;
+}
+
+@media(max-width: 767px) {
+	.footer__links {
+		display: flex !important;
+		flex-direction: row !important;
+		flex-wrap: wrap !important;
+		gap: 1.5rem !important;
+	}
+	
+	.footer__col {
+		flex: 1 1 calc(50% - 0.75rem) !important;
+		min-width: 0 !important;
+		max-width: calc(50% - 0.75rem) !important;
+	}
+}
+
+@media(max-width: 480px) {
+	.footer__links {
+		display: flex !important;
+		flex-direction: row !important;
+		flex-wrap: wrap !important;
+		gap: 1rem !important;
+	}
+	
+	.footer__col {
+		flex: 1 1 calc(50% - 0.5rem) !important;
+		min-width: 0 !important;
+		max-width: calc(50% - 0.5rem) !important;
+	}
+}
+
 /* footer bottom */
 
 .site-footer__bottom .inner-container {
@@ -5859,6 +5910,7 @@ html[data-theme='dark'] .how-it-works-page__cta-title {
 
 	.how-it-works-page__toggle {
 		flex-direction: column;
+		align-items: center;
 		gap: 10px;
 	}
 
