@@ -23,8 +23,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          path: 'creativetv',
+          routeBasePath: 'creativetv',
+          sidebarPath: require.resolve('./sidebarsCreativetv.js'),
           editUrl: 'https://github.com/g2entgroup/creative-website/',
           sidebarCollapsible: true,
         },
@@ -48,6 +49,28 @@ const config = {
     ],
   ],
   plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'creativebank',
+        path: 'creativebank',
+        routeBasePath: 'creativebank',
+        sidebarPath: require.resolve('./sidebarsCreativebank.js'),
+        editUrl: 'https://github.com/g2entgroup/creative-website/',
+        sidebarCollapsible: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        routeBasePath: 'community',
+        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        editUrl: 'https://github.com/g2entgroup/creative-website/',
+        sidebarCollapsible: true,
+      },
+    ],
     function reorderNavbarPlugin() {
       return {
         name: 'reorder-navbar',
@@ -167,6 +190,10 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Community Docs',
+                to: '/community/intro',
+              },
+              {
                 label: "Farcaster",
                 href: "https://farcaster.xyz/thecreative.eth",
               },
@@ -188,16 +215,20 @@ const config = {
             title: 'Resources',
             items: [
               {
-                label: 'Docs',
-                to: '/docs/intro',
+                label: 'Creative TV Docs',
+                to: '/creativetv/intro',
+              },
+              {
+                label: 'Creative Bank Docs',
+                to: '/creativebank/intro',
               },
               {
                 label: 'Privacy Policy',
-                to: '/docs/legal/privacy-policy',
+                to: '/community/legal/privacy-policy',
               },
               {
                 label: 'Terms & Conditions',
-                to: '/docs/legal/terms-conditions',
+                to: '/community/legal/terms-conditions',
               },
               {
                 label: 'Blog',
