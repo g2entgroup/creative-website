@@ -10,10 +10,10 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #EC407A;
-  --ifm-color-primary-dark:  #161D2F;
-  --ifm-color-primary-darker: #1A202C;
-  --ifm-color-primary-darkest: #1A202C;
-  --ifm-color-primary-light:  #EE774D;
+  --ifm-color-primary-dark: #d6386e;
+  --ifm-color-primary-darker: #c03062;
+  --ifm-color-primary-darkest: #9a2650;
+  --ifm-color-primary-light: #EE774D;
   --ifm-color-primary-lighter: #FACB80;
   --ifm-color-primary-lightest: #EC407A;
   --ifm-code-font-size: 95%;
@@ -56,6 +56,49 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .navbar__items--right {
   display: flex;
   align-items: center;
+}
+
+/*--------------------------------------------------------------
+# Algolia DocSearch - Theme-aware styling
+--------------------------------------------------------------*/
+[data-theme='light'] .DocSearch {
+  /* --docsearch-primary-color: var(--ifm-color-primary); */
+  /* --docsearch-text-color: var(--ifm-font-color-base); */
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-container-background: rgba(94, 100, 112, 0.7);
+  /* Modal */
+  --docsearch-modal-background: var(--ifm-color-secondary-lighter);
+  /* Search box */
+  --docsearch-searchbox-background: var(--ifm-color-secondary);
+  --docsearch-searchbox-focus-background: var(--ifm-color-white);
+  /* Hit */
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-white);
+  /* Footer */
+  --docsearch-footer-background: var(--ifm-color-white);
+}
+
+[data-theme='dark'] .DocSearch {
+  --docsearch-text-color: var(--ifm-font-color-base);
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-container-background: rgba(47, 55, 69, 0.7);
+  /* Modal */
+  --docsearch-modal-background: var(--ifm-background-color);
+  /* Search box */
+  --docsearch-searchbox-background: var(--ifm-background-color);
+  --docsearch-searchbox-focus-background: var(--ifm-color-black);
+  /* Hit */
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-emphasis-100);
+  /* Footer */
+  --docsearch-footer-background: var(--ifm-background-surface-color);
+  --docsearch-key-gradient: linear-gradient(
+    -26.5deg,
+    var(--ifm-color-emphasis-200) 0%,
+    var(--ifm-color-emphasis-100) 100%
+  );
 }
 
 /*--------------------------------------------------------------
@@ -103,10 +146,26 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 body {
 	font-family: var(--thm-font);
-	color: #9b9caa;
 	font-size: 18px;
 	line-height: 34px;
 	font-weight: 500;
+}
+
+/* Custom landing pages - scope the gray text color so docs inherit Infima's theme-aware colors */
+.creators-page,
+.fans-page,
+.brands-page,
+.how-it-works-page,
+.banner-one,
+.service-one,
+.cta-three,
+.cta-two,
+.video-one,
+.testimonials__one,
+.brand-one,
+.faq-one,
+.cta-one {
+	color: #9b9caa;
 }
 
 a:active,
@@ -6067,4 +6126,32 @@ html[data-theme='dark'] .how-it-works-page__cta-title {
 		font-size: 14px;
 		padding: 10px 25px;
 	}
+}
+
+/* Ensure docs pages respect theme colors */
+.theme-doc-markdown,
+[class*="docItemContainer"] {
+	color: var(--ifm-font-color-base);
+}
+
+/* Fix docs dark mode: ensure main content area has dark background (Bootstrap/global styles can override) */
+html[data-theme='dark'] body,
+html[data-theme='dark'] #__docusaurus {
+	background-color: var(--ifm-background-color) !important;
+}
+
+html[data-theme='dark'] .main-wrapper,
+html[data-theme='dark'] [class*="theme-layout-main"],
+html[data-theme='dark'] .docs-wrapper,
+html[data-theme='dark'] .docs-doc-page,
+html[data-theme='dark'] main {
+	background-color: var(--ifm-background-color) !important;
+}
+
+html[data-theme='dark'] .theme-doc-markdown,
+html[data-theme='dark'] [class*="docItemContainer"],
+html[data-theme='dark'] [class*="docItemWrapper"],
+html[data-theme='dark'] [class*="docMainContainer"] .container {
+	background-color: var(--ifm-background-color) !important;
+	color: var(--ifm-font-color-base);
 }

@@ -40,16 +40,31 @@ const config = {
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
         },
-        googleAnalytics: {
+        gtag: {
           trackingID: 'G-JYLMMFQ9L0',
           anonymizeIP: true,
         },
       }),
     ],
   ],
+  plugins: [
+    function reorderNavbarPlugin() {
+      return {
+        name: 'reorder-navbar',
+        getClientModules() {
+          return [require.resolve('./src/client-modules/reorderNavbar.js')];
+        },
+      };
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       algolia: {
         // The application ID provided by Algolia
         appId: 'L057IAF2ES',
