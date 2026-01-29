@@ -1,0 +1,22 @@
+{
+  "name": "instantsearch-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html --port 3000",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "algoliasearch": "^5.17.0",
+    "instantsearch.css": "^8.10.0",
+    "instantsearch.js": "^4.69.0"
+  },
+  "devDependencies": {
+    "buffer": "^5.5.0||^6.0.0",
+    "https-browserify": "^1.0.0",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4"
+  }
+}

@@ -4,6 +4,10 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
+    "algolia:export": "node scripts/algolia-export.js",
+    "algolia:upload": "node scripts/algolia-upload.js",
+    "algolia:sync": "yarn algolia:export && yarn algolia:upload",
+    "algolia:config": "node scripts/algolia-index-config.js",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -23,6 +27,7 @@
     "@svgr/webpack": "^5.5.0",
     "bootstrap": "^5.3.8",
     "clsx": "^1.1.1",
+    "algoliasearch": "^5.17.0",
     "dotenv": "^16.0.1",
     "file-loader": "^6.2.0",
     "prism-react-renderer": "^2.0.0",
