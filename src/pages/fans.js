@@ -19,7 +19,7 @@ export default function Fans() {
             <div className="fans-page__header">
               <span className="fans-page__tagline">From Viewer to Investor</span>
               <h1 className="fans-page__headline">
-                Don't Just Watch the Future. Own a Piece of It.
+                Don't Just Watch the Future. <br/>Own a Piece of It.
               </h1>
               <p className="fans-page__subheadline">
                 The Creative platform blurs the line between audience and owner. Support the artists you love while utilizing institutional-grade tools to grow your onchain portfolio.

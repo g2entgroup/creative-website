@@ -12,7 +12,7 @@ const Faq = () => {
                     <div className="block-title text-center">
                         <span className="block-title__bubbles"></span>
                         <p>Frequently Asked Questions</p>
-                        <h3>Common Questions From Creatives</h3>
+                        <h3>Common Questions From Creators</h3>
                     </div>
                     <div className="accrodion-grp wow fadeIn faq-accrodion animated">
                         <div className="accrodion">

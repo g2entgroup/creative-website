@@ -20,7 +20,7 @@ const FeaturesOne = () => {
                             <div className="block-title text-left">
                                 <span className="block-title__bubbles"></span>
                                 <p>Creative Platform Apps</p>
-                                <h3>One platform. Multiple apps.</h3>
+                                <h3>One platform. <br/>Multiple apps.</h3>
                             </div>
                         <img src="img/mocs/marketplaces.png" alt="" className="cta-three__moc" />
                             <div className="cta-three__box-wrap">

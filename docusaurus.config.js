@@ -182,7 +182,7 @@ const config = {
               },
               {
                 label: 'Terms & Conditions',
-                to: 'docs/legal/terms-conditions',
+                to: '/docs/legal/terms-conditions',
               },
               {
                 label: 'Blog',
@@ -201,7 +201,7 @@ const config = {
           width: 60,
           height: 51,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Creative Organization DAO LLC. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Creative Organization DAO LLC.`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,

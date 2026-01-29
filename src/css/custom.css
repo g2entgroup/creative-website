@@ -1631,6 +1631,53 @@ h4 {
 	margin-top: 10px;
 }
 
+/* Docusaurus footer links */
+.footer {
+	pointer-events: auto !important;
+	position: relative;
+	z-index: 10;
+}
+
+.footer__link-item,
+.footer__link-item a,
+.footer__link,
+.footer__link a {
+	pointer-events: auto !important;
+	cursor: pointer !important;
+}
+
+.footer__link-item a,
+.footer__link {
+	color: #a3a4b3;
+	transition: all 500ms ease;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.footer__link-item a:hover,
+.footer__link:hover {
+	color: var(--thm-base);
+	text-decoration: none;
+}
+
+.footer__link-item a:focus,
+.footer__link:focus {
+	color: var(--thm-base);
+	outline: none;
+}
+
+.footer__link-item a:active,
+.footer__link:active {
+	color: var(--thm-base);
+}
+
+/* Ensure footer columns and items are clickable */
+.footer__col,
+.footer__items,
+.footer__item {
+	pointer-events: auto !important;
+}
+
 /* footer bottom */
 
 .site-footer__bottom .inner-container {

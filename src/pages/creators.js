@@ -19,7 +19,7 @@ export default function Creators() {
             <div className="creators-page__header">
               <span className="creators-page__tagline">Own Your Craft, Own Your IP</span>
               <h1 className="creators-page__headline">
-                Stop Being a Product. Start Being a Platform.
+                Stop Being a Product. <br/>Start Being a Platform.
               </h1>
               <p className="creators-page__subheadline">
                 At Creative TV, you keep 100% of your revenue and total control over your intellectual property. From your first upload to your first prediction market, we provide the onchain tools to turn your art into an ecosystem.

@@ -19,7 +19,7 @@ export default function Brands() {
             <div className="brands-page__header">
               <span className="brands-page__tagline">Authentic Connection at Scale</span>
               <h1 className="brands-page__headline">
-                Advertise Differently. Collaborate Deeply.
+                Advertise Differently. <br/>Collaborate Deeply.
               </h1>
               <p className="brands-page__subheadline">
                 Move past "ads" and into "alliances." Partner with the world's most innovative onchain creators in a transparent, decentralized environment.
