@@ -156,6 +156,12 @@
     .testimonials-pagination {
         display: block;
     }
+    /* Center buttons on mobile - same approach as cta-one__content with text-center */
+    .banner-one__content,
+    .cta-three__content,
+    .cta-two__content {
+        text-align: center;
+    }
 }
 
 @media(max-width: 625px) {
