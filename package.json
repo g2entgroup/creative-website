@@ -34,7 +34,7 @@
     "react-modal-video": "^1.2.8",
     "react-visibility-sensor": "^5.1.1",
     "surge": "^0.23.1",
-    "swiper": "^7.2.0",
+    "swiper": "^12.1.2",
     "url-loader": "^4.1.1"
   },
   "browserslist": {
