@@ -164,8 +164,8 @@ const config = {
                 label: "Dear Creative",
               },
               {
-                href: "https://beatme.creativeplatform.xyz",
-                label: "Beat Me",
+                href: "https://create.creativeplatform.xyz",
+                label: "Creative Pixels",
               },
               {
                 href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
