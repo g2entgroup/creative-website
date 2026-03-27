@@ -157,7 +157,11 @@ const config = {
               },
               {
                 href: "https://bank.creativeplatform.xyz",
-                label: "Creative Bank",
+                label: "Creative Finance",
+              },
+              {
+                href: "https://ip.creativeplatform.xyz",
+                label: "Creative IP Marketplace",
               },
               {
                 href: "https://news.creativeplatform.xyz/subscribe",
