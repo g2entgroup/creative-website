@@ -174,6 +174,10 @@ const config = {
               {
                 href: "https://app.creativeplatform.xyz",
                 label: "Terminal",
+              },
+              {
+                href: "https://beatme.creativeplatform.xyz",
+                label: "Beat Me",
               }
             ],
           },
