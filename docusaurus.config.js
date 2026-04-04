@@ -148,37 +148,41 @@ const config = {
           },
           {
             type: 'dropdown',
-            label: 'Launch Apps',
+            label: 'Creative Products',
             position: 'right',
             items: [
               {
                 href: "https://tv.creativeplatform.xyz",
-                label: "Creative TV",
+                label: "TV",
               },
               {
                 href: "https://bank.creativeplatform.xyz",
-                label: "Creative Bank",
+                label: "Finance",
+              },
+              {
+                href: "https://ip.creativeplatform.xyz",
+                label: "IP",
               },
               {
                 href: "https://news.creativeplatform.xyz/subscribe",
-                label: "Dear Creative",
+                label: "News",
               },
               {
                 href: "https://create.creativeplatform.xyz",
-                label: "Creative Pixels",
-              },
-              {
-                href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
-                label: "Podcast",
-              },
-              {
-                href: "https://app.creativeplatform.xyz",
-                label: "Terminal",
+                label: "Pixels",
               },
               {
                 href: "https://beatme.creativeplatform.xyz",
                 label: "Beat Me",
+              },
+              {
+                href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
+                label: "Podcast",
               }
+              // {
+              //   href: "https://app.creativeplatform.xyz",
+              //   label: "Terminal",
+              // }
             ],
           },
           {
