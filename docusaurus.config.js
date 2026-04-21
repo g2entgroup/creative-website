@@ -88,6 +88,7 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
+      image: 'img/mocs/CREATIVE_products.png',
       algolia: {
         // The application ID provided by Algolia
         appId: 'L057IAF2ES',
