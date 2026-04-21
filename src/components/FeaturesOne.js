@@ -22,7 +22,7 @@ const FeaturesOne = () => {
                                 <p>Creative Platform Apps</p>
                                 <h3>One platform. <br/>Multiple apps.</h3>
                             </div>
-                        <img src="img/mocs/CREATIVE_products.png" alt="" className="cta-three__moc" />
+                        <img src="img/mocs/CREATIVE_Ecosystem_664x740px.png" alt="" className="cta-three__moc" />
                             <div className="cta-three__box-wrap">
                                 <div className="cta-three__box">
                                     <div className="cta-three__box-icon">
