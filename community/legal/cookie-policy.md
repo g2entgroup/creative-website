@@ -4,11 +4,11 @@ title: Cookie Policy
 sidebar_position: 3
 ---
 
-## Cookie Policy for Creative Organization DAO
+## Cookie Policy for Creative Platform, Inc.
 
 **Last updated: November 7, 2023**
 
-At Creative Organization DAO, accessible from [https://creativeplatform.xyz](https://creativeplatform.xyz), one of our main priorities is the privacy of our visitors. This Cookie Policy document contains types of information that is collected and recorded by Creative Organization DAO and how we use it.
+At Creative Platform, Inc., accessible from [https://creativeplatform.xyz](https://creativeplatform.xyz), one of our main priorities is the privacy of our visitors. This Cookie Policy document contains types of information that is collected and recorded by Creative Platform, Inc. and how we use it.
 
 If you have additional questions or require more information about our Cookie Policy, do not hesitate to contact us.
 

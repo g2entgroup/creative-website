@@ -24,6 +24,17 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+### Editing docs
+
+This site runs **three unversioned Docusaurus docs instances** (`community/`, `creativetv/`, `creativebank/`). See [Editing Documentation](/community/contributing/editing-documentation) for frontmatter, local preview, deploy, and Algolia search sync.
+
+Quick checklist after changing Markdown:
+
+1. `yarn start` — preview locally
+2. `yarn build` — verify links before PR
+3. Merge + deploy — publish to creativeplatform.xyz
+4. `yarn algolia:sync` — refresh site search index
+
 ### Deployment
 
 ```

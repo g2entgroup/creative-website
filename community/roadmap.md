@@ -3,35 +3,70 @@ id: roadmap
 title: Roadmap
 sidebar_position: 2
 ---
+
 # 🏎 Roadmap
 
-Here are integrations we have plans to integrate.
+Here is an overview of the upcoming integrations and product milestones we are actively developing for the Creative Platform ecosystem.
 
-## Project Updates
+## Project Updates & Analytics
 
-We consider reporting and analysis a very important way to measure performance and more importantly improvement. We have considered the following platforms as providers of analytics for the information we deal with:
+We consider reporting and analysis a vital way to measure performance and, more importantly, to drive continuous improvement. We are building robust, decentralized data pipelines to track platform health and user success.
 
-| Q1  | Q2  | Q3  | Q4  |
-|---|---|---|---|
-| UI/UX  | [Urban Uprise Crew (UUC) NFT Collection](https://urbanuprisecrew.com)  | Exclusive POAP for UUC NFT Raffle. | DSP Streaming Royalties |
-| Creator/Brand Onboarding  | [Creative platform Testnet Release](https://fragrant-wildflower-5096.on.fleek.co/) | UUC [Exclusive Merch](https://web3wear.com/main/urbanuprisecrew) | DeFi APR lockers for royalties earned from streaming  |
-| Smart Contracts |   |   |   |
-| Subgraph |   |   |   |
-| Creation of [Creative Events DAO](https://app.daohaus.club/dao/0x64/0xd68a1e4e4eeef0ea04f26a6d657cfe8b56097698) | | | |
+Key metrics we focus on tracking across the ecosystem include:
 
-Subgraph:
-   * _Fan Count_
-   * _Fan Engagement_
-   * _Brand Reputation Points_
-   * _Platform Usage_ 
+- Fan Count & Audience Growth
+- Fan Engagement Rates (specifically across Creative TV broadcasts and digital media)
+- Brand Reputation Points
+- Platform & Tool Usage
 
-## Decentralized Advertising Marketplace for Creators and Sponsors
+## Upcoming Milestones & Integrations
 
-We believe crypto advertising is the future for brands and creators alike and an important percentage of third party revenue.
+### Creative TV Expansion
 
-1. [Serotonin](https://seratonin.io)
-   1. Peer-to-peer
-   2. Crypto Markets
-   3. Unlock Revenue
+**Decentralized Broadcasting Network:** Scaling our live-streaming platform to support more creators and brands, ensuring they retain 100% of their streaming revenue by eliminating traditional intermediaries.
 
-[Video Overview](https://youtu.be/djmwum1q8ic)
+**Live-to-Asset Monetization:** Rolling out features that allow creators to instantly transform their live content and broadcast moments into permanent, monetizable digital collectibles.
+
+**Creator-Specific Economies:** Integrating personalized digital asset systems directly into the viewing experience, allowing fans to deeply engage with and back their favorite streamers in real time.
+
+### Creative IP Exchange & Infrastructure
+
+**Digital Asset Marketplace:** Launching a live marketplace and launchpad where creators can register, manage, and license their digital IP instantly.
+
+**Story Protocol Integration:** Utilizing Story Protocol infrastructure to permanently record the ownership, provenance, and royalty structures of creative works directly on-chain.
+
+**Frictionless Onboarding & Checkout:** Incorporating Crossmint's StoryKit to provide smooth user authentication, behind-the-scenes wallet creation, and seamless fiat/crypto checkouts for IP licensing.
+
+**Standardized Metadata Ingestion:** Integrating DDEX data standards to accurately ingest traditional music industry metadata, ensuring track titles, artist credits, and publishing rights are perfectly mapped to the on-chain IP assets.
+
+### Music Curation & Decentralized Broadcasting
+
+**Mixtape Application Launch:** Rolling out the high-end digital vault and interactive media player, featuring customizable retro cassette and vinyl UI themes.
+
+**Agentic Workflows for Audio:** Integrating the Mixtape platform with our AI agent APIs (led by our orchestrator, Adam) to streamline music curation and automated broadcasting.
+
+**Resilient Playback Architecture:** Finalizing the underlying playback components and local-first storage infrastructure to support seamless, decentralized streaming.
+
+### Creative Bank Expansion
+
+**Visa Debit Card Integration:** Bridging Web3 with traditional finance by allowing creators to seamlessly spend their USDC balances and yielded funds in the real world.
+
+**Enhanced Yield Strategies:** Continued optimization of our lending, borrowing, and high-yield vaults powered by our Aave and Yearn smart contract integrations.
+
+### Creative Pixels
+
+**Real-Time AI Video Workstation:** Launching our innovative workstation that transforms audio lyrics directly into generated videos.
+
+**Webcam Prompt Generation:** Implementing live webcam input translation to dynamically generate and alter AI prompts in real time.
+
+### Content Authenticity & Security
+
+**C2PA Standards Integration:** Actively implementing C2PA standards to ensure clear, verifiable distinction between human-generated and AI-generated content across the entire platform.
+
+### Creative AI Orchestration
+
+**Agentic Workflows:** Scaling our factory of specialized AI agents to automate and handle increasingly complex day-to-day business activities for creative professionals.
+
+## Decentralized Advertising Marketplace
+
+**Peer-to-Peer Sponsorships:** Building a direct, peer-to-peer marketplace connecting creators with sponsors, unlocking new revenue streams without the need for traditional ad agencies.

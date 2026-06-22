@@ -6,140 +6,87 @@ sidebar_position: 1
 
 # Creative Platform Documentation
 
-A gamified blockchain platform for independent creators, fans, and brands to collaborate directly and earn rewards using P2E DeFi incentives.
-
-We believe in the future of the creator economy and are introducing a platform to launch a asset NFT for creators and brands to incentivize from NFTs.
-
 ## Description
 
-In order to come up with a product that is able to attract early adopters, we need to be able to demonstrate that the concept is achievable is terms of technology. For that reason, we will be built a **proof of concept** (POC) or better called **prototype**.
+The Creative Platform is a suite of Web3-powered software solutions designed to support creatives in monetizing their intellectual property and securing long-term wealth. By integrating blockchain technology with entertainment industry tools, the platform allows independent creators, fans, and brands to collaborate directly, bypassing traditional intermediaries.
 
-This proof of concept showcases the core features of the Creative platform and has the main objective of verifying that the idea has the potential in a real-world situation. Basically it aims to determine whether the project is feasible and will function as planned.
+## Our Core Ecosystem
 
-The POC that encloses this MVP starts with a **design**. In this design the team makes ideation of the **product vision, hypothesis and KPI's** to measure to come up with a lean solution.
+To demonstrate value and attract early adopters, the platform consists of several active, interconnected products:
 
-## Assumptions
+**Creative TV:** A decentralized live-streaming application where creators retain 100% of their streaming revenue and can monetize their live content directly as digital collectibles.
 
-This building process is based on the [Creative Whitepaper](resources/whitepaper) which describes the general vision. In our vision, we want to build a working product that assumes the following:
+**Creator Assets:** A personalized digital asset system built on the Base network, giving creators their own digital representation to foster audience engagement and secure backing from fans.
 
-* **Who will be the users?**&#x20;
+**Creative Bank:** A Web3 financial product utilizing USDC on the Base network. It offers lending, borrowing, and high-yield interest vaults powered by Aave and Yearn technology.
 
-Creators of any kind of content (mostly audiovisual) on one side. Institutions (Brands) willing to support creators in exchange for custom and fresh NFT assets that hold acruing valuation overtime or value added propositions for them.
+**Creative AI:** A factory of specialized AI agents (led by our orchestrator, Adam) designed to handle day-to-day business activities and workflows for creative professionals.
 
-* **What value does your product offer?**&#x20;
+**Creative Kidz:** An initiative providing mobile devices with preloaded creative tools to underserved children, funded through weekly digital art auctions.
 
-A financial instrument to finance a community that creates partnerships and businesses around the NFTs and DeFi.
+## Assumptions & Business Model
 
-* **What problems does your product solve?**&#x20;
+This building process is based on the vision of creating a working, scalable product that assumes the following:
 
-The absence of a platform for creatives to earn a living and progress in value based on their reputation of success.
+**Who will be the users?**
+Independent creators (mostly audiovisual and music) on one side. On the other side, fans and institutions (brands) willing to support these creators in exchange for custom digital assets, IP ownership, and value-added propositions.
 
-* **When and how much revenue will it generate?**&#x20;
-  * **980 million CRTV**
-    * Once the Creative platform is in production. The community will mint 980 million CRTV tokens to the market for use of uitliity throughout the Creative platform with an initial valuation of USD 0.1 per token.
-  * **200 million CRTVO**
-    * As a contributing member you can earn CRTVO profit sharing tokens where CRTVO tokens will earn royalties based on usage of the platform + 2% royalty from total minted NFTs on the Creative platform.
-* **What determines your product’s success and failure?**&#x20;
+**What value does the product offer?**
+A transparent financial and technological ecosystem that allows creatives to earn a living, digitize their work, and grow their wealth using decentralized finance (DeFi) tools.
 
-Community acquisition and engagement based on the capital locked into the platform and usage metrics.
+**What problems does the product solve?**
+The absence of a fair, creator-first digital economy. It removes middlemen, allowing creatives to progress in value based directly on their reputation and success.
 
-* **When will you deliver it?**&#x20;
+**Revenue Generation**
+Revenue generation and network utility will be driven by ecosystem transaction fees, royalty structures from minted digital assets, and the broader integration of protocol features managed by our community-governed entity, Creative Organization DAO, LLC.
 
-Depends on the timelines set on each project.
-
-* **What is the core functionality of your product?**&#x20;
-
-To create a liquidity pool in which ‘sponsors' can put capital and distribute the funds to a selected proposal submitted by a ‘creator’ that matches with the ‘sponsors’ requirements.
-
-At the time of writing, the previous might have been already iterated. For that reason, this document is considered a continuous work in progress and it should be updated regularly in conjunction with the teams learnings, insights and decisions.
-
-## The business model
-
-Before we dive into the details of what our MVP does let’s talk about why are we doing it. To address this we make use of the Blockchain Model Canvas. It is a diagram that shows that our business idea is attractive enough for future investors and most importantly the end users.
-
-_**Note: it is highly important that you understand the following diagram because while we can assert general procedures on how we will be doing everything and we set deliverables to reach our goals you will be working on your own most of the time. If you design and code without a purpose and a real understanding of why things are done in a certain way, you will not only feel bound but you will not learn. As a team we want everyone to profit from this project not only in terms of professional growth**_ _**but also intellectually**_ _**.**_
-
-The diagram you are about to see will be discussed and iterated accordingly every meeting so if you have doubts around the approach we take towards it don’t hesitate to let us know. Think of it as the road necessary to start the execution of each MVP phase. Here you can see our draft of the **Blockchain Model Canvas**:
+**What determines the product's success and failure?**
+Community acquisition, creator retention, the volume of capital locked into Creative Bank, and daily active usage metrics across the software suite.
 
 ![Creative Updated Flow](https://creativeplatform.xyz/img/mockups/Updated_Creative_Flow.png)
 
-## Features/Requirements
+## Features & Requirements
 
-The idea of the MVP is to showcase the most important functionalities of the product to understand its underlying value leaving aside any additional usability that might be misleading or time consuming in terms of development. The following table illustrates how many functionalities might be filtered depending on its correlation to the core business of the project and their relevance in order to get the product up and running.
+The goal is to showcase the most important functionalities of the product to understand its underlying value, leaving aside any time-consuming features that do not support the core business.
 
-The idea behind the requirements is to set aside what the product **must** do, from what it **should** do and what it could do. The table below shows rough examples of how the product process goes into defining the previous:
+**Must-Have Core Functionality:**
 
-| **must**                                    | **should**                                | **could**        |
-| ------------------------------------------- | ----------------------------------------- | ---------------- |
-| Project docs setup and lifecycle management | Push notifications                        | Bonus System     |
-| Storage model                               | Localization                              | Animation        |
-| REST API                                    | Reviews                                   | SMS-notification |
-| Login & Registration process                | Social integration                        | Tips             |
-| User profile & Edit user profile            | Traditional Payment integrations (Stripe) | Wish list        |
-| Campaigns Search filters                    | Chat & Notifications                      | User Stats       |
-| Capital injection-withdrawal transactions   |                                           |                  |
-| Submit campaigns                            |                                           |                  |
+- Seamless user login and wallet creation using Alchemy (for platform apps) and Crossmint (for banking).
+- Frictionless fiat-to-Web3 onboarding using regulated partners like Coinbase Onramp and Halliday.
+- The ability to deploy smart contracts and digital assets on the Base network.
+- Integration with Aave and Yearn smart contracts to generate yield on stable assets (USDC) within liquidity pools.
+- The ability to deliver yielded funds to selected creators while splitting interest among participating users.
 
-This proof of concept should have the following features/requirements. _**Please comment in here what you consider our MVP should have**_:
+## Stages of Development
 
-1. It should be able to login users with a crypto wallet integration.
-2. It needs to put a ‘campaign’ on chain with a locked value.
-3. It needs to generate an interest based on the amount yielded in the liquidity pool.
-4. It needs to receive NFT’s that works as a proposal to match with the campaign submitted.
-5. It needs to deliver the funds yielded to a selected winner and split all the interest among the players in the transaction.
-
-‌
-
-The way this project is executed is by using [Scaffold-eth](https://github.com/austintgriffith/scaffold-eth) to leverage each and every feature the Ethereum ecosystem brings to the table. The first thing the team needs to achieve is a way to manage NFT's (non-fungible tokens) properly. The team decided to use [Arkane](https://arkane.network)**.**
-
-‌
-
-We are using Mumbai network (0.1 ERC20) which is set up on top of Goerli network. It already has a balance from the faucet of 0.05ERC20 (the infura link is created using Goerli's network). Two connections received both from Mumbai. The .env file is the local environment. We need to make sure our mainnet is Mumbai and localnet is on Rinkeby.
-
-## Stages
-
-The pre-ideation stage started on Feb 16/2021, it started with a draft document that has been edited by the team.
-
-Note: After ideation has been shared with the entire team and each and _**every member understands the core business**_ _**as well**_ as the _**set of functions**_ each individual is _**in charge**_ of _**the project is**_ considered _**kicked-off**_. The [_**discord general chat**_](https://discord.gg/8B4p7ztWTp) should work as a way for the team members to ask for questions regarding any of the matters of the project overall. For inquiries regarding individual tasks, members should reach out to the scrum master or owner of the project to get further information.
-
-The founding team have drafted a way to bring the product up to reality by determining a clear set of steps to follow. These steps are supposed to be done continuously until the MVP proves to find an audience with a demonstrated intent to use the platform.
+This project operates on a continuous feedback loop. These steps are repeated to ensure the software constantly improves and finds a dedicated audience.
 
 ### 1. Execution 🔨
 
-This stage focuses on building. There is no time for thinking on the feasibility to add more things or come up with ideas to improve. This part of the process consist of working on the current **sprint** available on Jira’s workspace (Creative Token) and depending on the commitment of each and every member it can either get to the next point or get stuck. The way to know when the execution part is over is by having reviewed and accept all the **\[backlogs]** that make part of the **\[sprint]** to initiate the review stage. E.g. Dapp has a working landing page that logs the user in and executes a simple transaction with Arkane Network, UI updates the balance promptly, blockchain uses account that deploys the contract, etc.
+This stage focuses entirely on building the tasks outlined in the current sprint. There is no time for side ideas here. The execution phase is complete when all sprint backlogs are reviewed and accepted. (Example: The landing page logs a user in via Alchemy, successfully routes a fiat purchase through Coinbase, and the UI updates the balance promptly.)
 
 ### 2. Review 📏
 
-Review consists on analysis. This part of the process evaluates the performance of the current state of the product. It should have tangible metrics intrinsic either to the code/design or the performance of the software overall. It puts all the pros and cons of the existent features and define what stays and what goes in order to improve the product. The way to know this stage is done is by having an accurate report that indicates the specific way to start the iteration part. E.g We are able to audit each and every transaction on the blockchain, the current smart contract spends x amount in gas, transaction is totally automated from start to end, etc.
+Review consists of analysis. This phase evaluates the performance of the newly built features using tangible metrics. It outlines the pros and cons of the current state and defines what stays and what goes. The review is done when there is an accurate report indicating exactly how to iterate. (Example: Transaction gas fees on Base are audited, user onboarding drop-off rates are measured, etc.)
 
 ### 3. Iteration 🔧
 
-As an ongoing process, what proved to be wrong gets changed. This part defines a new way of executing certain processes according to adjusted parameters and paves the path for a new phase of execution. Iteration can be considered done when there is a new defined set of tasks to repeat or better to take to execution. E.g. Enforce ownership for this type of user, replace the interest rate from a time base ratio to a quadratic funding model to apply democratic incentives, refactor the inputs to start using an oracle to fetch data from.
+What proved to be wrong gets changed. This part defines new ways of executing processes based on the review data and paves the path for the next Execution phase. (Example: Adjusting the yield strategy in a Yearn vault to improve returns, or tweaking the UI to make the Halliday checkout faster.)
 
-## Outline and time estimation
+## Outline and Time Estimation
 
-The following are the building blocks to have a working product. Each and every component of this outline passes the previous 3 stages until it is considered achieved or developed.
+These are the core building blocks required to maintain a working product:
 
 #### 1. UX Design
 
-Key deliverables of this stage are user personas and user journeys helping future customers fulfil their tasks quickly and easily, and drive conversions (for products).
+Creating user personas and journeys to help creators and fans navigate the Web3 tools quickly and easily, driving overall platform conversion.
 
 #### 2. UI Design
 
-At this stage, custom design of user-facing parts (buttons, menus, tabs) is created. We have designated [Chakra](https://chakra-ui.com) and [Next.js](https://nextjs.org) as the UI framework to work with based on the fact that they are optimized for React, it has a great acceptance from the community and last but not least it is well supported for real-time active development.
+Designing the user-facing parts of the application. We use Chakra and Next.js as our UI frameworks because they are optimized for React, have great community support, and allow for rapid active development.
 
-Note: _\*\*_the stage is reasonable only if design is a competitive advantage, otherwise it’s better to use default themes and focus on the MVP functionality.
+#### 3. Coding & Infrastructure
 
-#### 3. Coding
-
-* **Back-end development** to build the MVP server side and APIs.
-* **Front-end development** to transform static interface images provided by UI designers into a fully functional MVP client side, and ensure its communication with the server.
-* **Testing** runs in parallel with development.
-
-The result of this phase is a **working MVP well hosted** and with very accurate **supporting documentation.**
-
-## Further information
-
-Thank you for reading carefully and contribute to this awesome project. Remember, **we are building the future of entertainment** .
-
-You have reached the end of this documentation!
+- **Front-end:** Transforming the UI designs into fully functional client-side applications that communicate smoothly with the blockchain.
+- **Smart Contracts & Back-end:** Managing the logic on the Base network, maintaining security, and integrating third-party protocols (Story Protocol, Aave, etc.).
+- **Testing:** Runs in parallel with development to ensure total smart contract integrity and user safety.
