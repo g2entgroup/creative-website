@@ -3,13 +3,13 @@ id: privacy-policy
 title: Privacy Policy
 sidebar_position: 1
 ---
-# Privacy Policy for Creative Organization DAO
+# Privacy Policy for Creative Platform, Inc.
 
 Effective Date: July 3, 2024
 
 ## Introduction
 
-At Creative Organization DAO ("we," "us," or "our"), we are committed to protecting the privacy and security of our users' personal information. This Privacy Policy outlines how we collect, use, disclose, and protect the personal information of individuals who interact with our services. By accessing or using our services, you agree to the terms outlined in this policy.
+At Creative Platform, Inc. ("we," "us," or "our"), we are committed to protecting the privacy and security of our users' personal information. This Privacy Policy outlines how we collect, use, disclose, and protect the personal information of individuals who interact with our services. By accessing or using our services, you agree to the terms outlined in this policy.
 
 ## Information We Collect
 
