@@ -240,6 +240,10 @@ const config = {
                 to: '/community/legal/terms-conditions',
               },
               {
+                label: 'AML & KYC Policy',
+                to: '/community/legal/aml-kyc',
+              },
+              {
                 label: 'Blog',
                 href: 'https://blog.creativeplatform.xyz',
               },
@@ -256,7 +260,7 @@ const config = {
           width: 60,
           height: 51,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Creative Organization DAO LLC.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Creative Platform Inc.`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,
