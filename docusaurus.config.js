@@ -276,6 +276,10 @@ const config = {
                 to: '/community/legal/privacy-policy',
               },
               {
+                label: 'SMS Opt-In',
+                to: '/sms',
+              },
+              {
                 label: 'Cookie Policy',
                 to: '/community/legal/cookie-policy',
               },

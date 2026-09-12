@@ -58,7 +58,7 @@ export default function Creators() {
 
             <div className="creators-page__section creators-page__section--upgrade">
               <h2 className="creators-page__section-title">
-                Upgrade to the Creator Membership ($30/Quarter)
+                Upgrade to the Creator Membership ($10/Month)
               </h2>
               <ul className="creators-page__features-list">
                 <li className="creators-page__feature-item">
