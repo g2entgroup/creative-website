@@ -67,7 +67,7 @@ const CreatorsModal = ({ show, onHide }) => {
 
           <div className="creators-modal__section creators-modal__section--upgrade">
             <h3 className="creators-modal__section-title">
-              Upgrade to the Creator Membership ($30/Quarter)
+              Upgrade to the Creator Membership ($10/Month)
             </h3>
             <ul className="creators-modal__features-list">
               <li className="creators-modal__feature-item">
