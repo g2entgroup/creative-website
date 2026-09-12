@@ -59,7 +59,7 @@ const CreatorsModal = ({ show, onHide }) => {
               <li className="creators-modal__feature-item">
                 <FontAwesomeIcon icon={faCheckCircle} className="creators-modal__check-icon" />
                 <span>
-                  <strong>Launch Your metoken:</strong> Create a tradeable social token to build a liquid economy around your brand.
+                  <strong>Launch Your meToken:</strong> Create a tradeable social token to build a liquid economy around your brand.
                 </span>
               </li>
             </ul>

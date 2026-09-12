@@ -45,7 +45,7 @@ const Faq = () => {
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>A: You get paid through your own personal economy. Every creator on the platform gets their own "Me Token." When fans stream your music, watch your videos, or want to support you, you earn these tokens. Because your token is tied to stable currencies (like DAI), you can swap your earnings into US Dollars (USDC) and withdraw directly to your real-world bank account via the Bank Tab on your profile.</p>
+                                        <p>A: You get paid through your own personal economy. Every creator on the platform gets their own meToken. When fans stream your music, watch your videos, or want to support you, you earn meTokens. Because your meToken is tied to stablecoins (USDC, USDS, DAI, GHO, and USDT), you can swap your earnings and withdraw directly to your real-world bank account via the Bank Tab on your profile.</p>
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ const Faq = () => {
                         <div className="accrodion ">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>Q: What is a "Me Token"?</h4>
+                                    <h4>Q: What is a meToken?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
@@ -62,9 +62,9 @@ const Faq = () => {
                                         <ul>
                                         <li>For You: You earn it when people engage with your content.</li>
 
-                                        <li>For Fans: They can buy and hold your token to support you (patronage) or because they believe your value will grow (speculation).</li>
+                                        <li>For Fans: They can buy and hold your meToken to support you (patronage) or because they believe your value will grow (speculation).</li>
 
-                                        <li>For Access: You can even require fans to hold your token to access exclusive live streams or premium content.</li>
+                                        <li>For Access: You can even require fans to hold your meToken to access exclusive live streams or premium content.</li>
                                         </ul>
                                         </p>
                                     </div>
@@ -80,9 +80,9 @@ const Faq = () => {
                                     <div className="inner">
                                         <p>A: It’s a simple 3-step process inside Creative Bank:
 
-<ol><li>Sell: Sell your "Me Tokens" for DAI (a stable cryptocurrency).</li>
+<ol><li>Sell: Sell your meTokens for stablecoins / stable cryptocurrencies — including USDC, USDS, DAI, GHO, and USDT.</li>
 
-<li>Convert: Swap that DAI into USDC.</li>
+<li>Convert: If needed, swap your stablecoins into USDC.</li>
 
 <li>Withdraw: Use the Bank Tab in your profile to send those funds directly to your bank account.</li>
 </ol></p>
