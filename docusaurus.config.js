@@ -88,6 +88,7 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
+      image: 'img/mocs/CREATIVE_products.png',
       algolia: {
         // The application ID provided by Algolia
         appId: 'L057IAF2ES',
@@ -172,6 +173,10 @@ const config = {
                 label: "Pixels",
               },
               {
+                href: "https://beatme.creativeplatform.xyz",
+                label: "Beat Me",
+              },
+              {
                 href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
                 label: "Podcast",
               }
@@ -179,6 +184,25 @@ const config = {
               //   href: "https://app.creativeplatform.xyz",
               //   label: "Terminal",
               // }
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Docs',
+            position: 'right',
+            items: [
+              {
+                label: 'Community Docs',
+                to: '/community/intro',
+              },
+              {
+                label: 'Whitepaper',
+                to: '/community/resources/whitepaper',
+              },
+              {
+                label: 'Terms & Conditions',
+                to: '/community/legal/terms-conditions',
+              },
             ],
           },
           {
@@ -191,33 +215,12 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Docs',
             items: [
               {
                 label: 'Community Docs',
                 to: '/community/intro',
               },
-              {
-                label: "Farcaster",
-                href: "https://farcaster.xyz/thecreative.eth",
-              },
-              {
-                label: "Instagram",
-                href: "https://www.instagram.com/creativecrtv",
-              },
-              {
-                label: "Discord",
-                href: "https://discord.com/servers/creative-779364937503604777",
-              },
-              {
-                label: "Telegram",
-                href: "https://t.me/+PaiZoO2ojAAyOGRh"
-              },
-            ]
-          },
-          {
-            title: 'Resources',
-            items: [
               {
                 label: 'Creative TV Docs',
                 to: '/creativetv/intro',
@@ -227,12 +230,8 @@ const config = {
                 to: '/creativebank/intro',
               },
               {
-                label: 'Privacy Policy',
-                to: '/community/legal/privacy-policy',
-              },
-              {
-                label: 'Terms & Conditions',
-                to: '/community/legal/terms-conditions',
+                label: 'Whitepaper',
+                to: '/community/resources/whitepaper',
               },
               {
                 label: 'Blog',
@@ -242,7 +241,49 @@ const config = {
                 href: 'https://github.com/creativeplatform',
                 label: 'GitHub',
               },
-            ]
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Farcaster',
+                href: 'https://farcaster.xyz/thecreative.eth',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/creativecrtv',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.com/servers/creative-779364937503604777',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/+PaiZoO2ojAAyOGRh',
+              },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Terms & Conditions',
+                to: '/community/legal/terms-conditions',
+              },
+              {
+                label: 'Privacy Policy',
+                to: '/community/legal/privacy-policy',
+              },
+              {
+                label: 'Cookie Policy',
+                to: '/community/legal/cookie-policy',
+              },
+              {
+                label: 'AML & KYC Policy',
+                to: '/community/legal/aml-kyc',
+              },
+            ],
           },
         ],
         logo: {
@@ -251,7 +292,7 @@ const config = {
           width: 60,
           height: 51,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Creative Organization DAO LLC.`,
+        copyright: `Community &amp; governance by Creative Organization DAO LLC · Software by Creative Platform, Inc.<br />Copyright © ${new Date().getFullYear()} Creative Organization DAO LLC and Creative Platform, Inc.`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,
