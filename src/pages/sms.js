@@ -5,12 +5,9 @@ import {Container, Form, Button} from 'react-bootstrap';
 
 const PRIVACY_POLICY_PATH = '/community/legal/privacy-policy';
 const TERMS_PATH = '/community/legal/terms-conditions';
-const OPT_IN_URL = 'https://creativeplatform.xyz/sms';
 
-const SAMPLE_MESSAGES = [
-  'Hey, this is Creative Platform. Just confirming your opt-in to text alerts about features, drops, and community updates. Reply STOP to end.',
-  'Hi [first name], thanks for signing up for Creative Platform SMS alerts. If you have questions, reply here. Reply STOP to end.',
-];
+const CONSENT_COPY =
+  'I agree to receive recurring automated text messages from Creative Platform, Inc. at the phone number provided. Msg & data rates may apply. Msg frequency varies. Reply HELP for help and STOP to end.';
 
 export default function SmsOptIn() {
   const [name, setName] = useState('');
@@ -33,20 +30,15 @@ export default function SmsOptIn() {
   return (
     <Layout
       title="SMS alerts | Creative Platform"
-      description="Opt in to optional SMS alerts from Creative Platform about features, drops, Brand Pass, and community updates.">
+      description="Opt in to optional SMS alerts from Creative Platform about features, drops, and ecosystem updates.">
       <div className="sms-page">
         <Container>
           <div className="sms-page__content">
             <header className="sms-page__header">
               <h1 className="sms-page__headline">Text alerts from Creative Platform</h1>
               <p className="sms-page__subheadline">
-                Get optional SMS about features, drops, Brand Pass, and community updates. Email
-                still works without texts.
-              </p>
-              <p className="sms-page__opt-in-description">
-                End users opt-in by visiting{' '}
-                <Link to="/sms">{OPT_IN_URL}</Link> and adding their phone number. They check a box
-                agreeing to receive text messages from Creative Platform, Inc.
+                Get optional SMS about features, drops, and ecosystem updates. Email still works
+                without texts.
               </p>
             </header>
 
@@ -119,11 +111,7 @@ export default function SmsOptIn() {
                       aria-required="true"
                     />
                     <label className="sms-page__consent-label" htmlFor="sms-consent-checkbox">
-                      I agree to receive recurring automated text messages from Creative Platform,
-                      Inc. at the phone number provided. Msg & data rates may apply. Msg frequency
-                      varies. Reply HELP for help and STOP to end. View our{' '}
-                      <Link to={TERMS_PATH}>Terms of Service</Link> and{' '}
-                      <Link to={PRIVACY_POLICY_PATH}>Privacy Policy</Link>.
+                      {CONSENT_COPY}
                     </label>
                   </div>
 
@@ -143,17 +131,6 @@ export default function SmsOptIn() {
                 </Form>
               </div>
             )}
-
-            <div className="sms-page__section sms-page__samples">
-              <h2 className="sms-page__samples-title">Sample text messages</h2>
-              <ul className="sms-page__samples-list">
-                {SAMPLE_MESSAGES.map((message) => (
-                  <li key={message} className="sms-page__sample">
-                    {message}
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
         </Container>
       </div>

@@ -33,7 +33,7 @@ Token initiatives and the smart contracts associated with the community's econom
 
 ## SMS Terms and Conditions
 
-You may opt in to receive recurring automated text messages from Creative Platform, Inc. by visiting [https://creativeplatform.xyz/sms](/sms), providing your mobile phone number, and checking a box to consent. Campaigns may cover customer care and marketing, including features, drops, Brand Pass, and community updates.
+You may opt in to receive recurring automated text messages from Creative Platform, Inc. by visiting [https://creativeplatform.xyz/sms](/sms), providing your mobile phone number, and checking a box to consent. Campaigns may cover customer care and marketing, including features, drops, and ecosystem updates.
 
 Message frequency varies. Message and data rates may apply. Reply HELP for help. Reply STOP to cancel. Carriers are not liable for any delays or undelivered messages. Consent is not a condition of any purchase. SMS opt-in data and consent are not sold or shared with third parties or affiliates for their marketing or promotional purposes.
 

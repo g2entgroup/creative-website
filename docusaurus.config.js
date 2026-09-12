@@ -161,8 +161,8 @@ const config = {
                 label: "Finance",
               },
               {
-                href: "https://ip.creativeplatform.xyz",
-                label: "IP",
+                href: "https://air.creativeplatform.xyz",
+                label: "Mixtape",
               },
               {
                 href: "https://news.creativeplatform.xyz/subscribe",
