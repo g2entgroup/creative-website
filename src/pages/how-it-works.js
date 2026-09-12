@@ -140,7 +140,7 @@ export default function HowItWorks() {
       number: 4,
       title: "The Economy (Automated Rewards)",
       simple: "Get paid automatically! When you collaborate, money splits instantly. Launch your own token and let fans bet on your success.",
-      tech: "Revenue Splits: Collaborating on a project? Our smart contracts automatically split earnings between you and your team the second they hit your wallet. No invoices, no waiting. metokens: Launch your own personal brand token. As your influence grows, so does your liquid economy. Prediction Markets: Members can use Reality.eth to create \"Future Markets.\" Fans can predict your next big milestone, creating a fun, gamified way to engage and support your career.",
+      tech: "Revenue Splits: Collaborating on a project? Our smart contracts automatically split earnings between you and your team the second they hit your wallet. No invoices, no waiting. meTokens: Launch your own personal brand token. As your influence grows, so does your liquid economy. Prediction Markets: Members can use Reality.eth to create \"Future Markets.\" Fans can predict your next big milestone, creating a fun, gamified way to engage and support your career.",
       protocols: ["Reality.eth"]
     },
     {

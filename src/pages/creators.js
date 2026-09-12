@@ -50,7 +50,7 @@ export default function Creators() {
                 <li className="creators-page__feature-item">
                   <FontAwesomeIcon icon={faCheckCircle} className="creators-page__check-icon" />
                   <span>
-                    <strong>Launch Your metoken:</strong> Create a tradeable social token to build a liquid economy around your brand.
+                    <strong>Launch Your meToken:</strong> Create a tradeable social token to build a liquid economy around your brand.
                   </span>
                 </li>
               </ul>
