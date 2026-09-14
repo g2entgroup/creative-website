@@ -167,7 +167,7 @@ const config = {
                 label: "TV",
               },
               {
-                href: "https://bank.creativeplatform.xyz",
+                href: "https://finance.creativeplatform.xyz",
                 label: "Finance",
               },
               {
