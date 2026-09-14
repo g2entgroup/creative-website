@@ -148,6 +148,16 @@ const config = {
             position: 'left',
           },
           {
+            href: 'https://news.creativeplatform.xyz/subscribe',
+            label: 'News',
+            position: 'right',
+          },
+          {
+            href: 'https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195',
+            label: 'Podcast',
+            position: 'right',
+          },
+          {
             type: 'dropdown',
             label: 'Creative Products',
             position: 'right',
@@ -165,10 +175,6 @@ const config = {
                 label: "Mixtape",
               },
               {
-                href: "https://news.creativeplatform.xyz/subscribe",
-                label: "News",
-              },
-              {
                 href: "https://create.creativeplatform.xyz",
                 label: "Pixels",
               },
@@ -180,10 +186,6 @@ const config = {
                 href: "https://books.creativeplatform.xyz",
                 label: "Books",
               },
-              {
-                href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
-                label: "Podcast",
-              }
               // {
               //   href: "https://app.creativeplatform.xyz",
               //   label: "Terminal",
