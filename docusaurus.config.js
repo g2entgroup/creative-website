@@ -177,6 +177,10 @@ const config = {
                 label: "Beat Me",
               },
               {
+                href: "https://books.creativeplatform.xyz",
+                label: "Books",
+              },
+              {
                 href: "https://open.spotify.com/show/4zAsBnJwZKquxvI7oPqRam?si=3bcceebea4614195",
                 label: "Podcast",
               }
