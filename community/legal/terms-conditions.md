@@ -44,6 +44,21 @@ b. Account Security: You are responsible for maintaining the confidentiality of 
 c. Compliance: You agree to comply with all applicable laws, regulations, and third-party rights while using the Creative platform.
 d. Prohibited Activities: You must not engage in any activity that may interfere with the proper functioning of the platform or infringe upon the rights of others. This includes, but is not limited to, unauthorized access, data scraping, spamming, or any illegal or fraudulent activity.
 
+## Acceptable Use Policy (AUP)
+
+To ensure the safety and integrity of the Creative platform, all users must adhere to the following guidelines. We employ automated AI-powered detection systems to programmatically identify and remove content that violates these terms.
+
+1. **Prohibited Content:** The following categories of content are strictly prohibited and will result in immediate demonetization and removal:
+
+   - **Adult Content:** Any content containing nudity or explicit sexual acts.
+   - **Intellectual Property Infringement:** Content that violates copyright, trademarks, or proprietary rights (e.g., leaked music, unauthorized redistribution).
+   - **Violent Extremism:** Content that encourages, promotes, or celebrates unlawful violence or hate speech toward any group based on race, religion, disability, gender, sexual orientation, or national origin.
+
+2. **Reporting and Enforcement:**
+
+   - **Reporting:** Rights holders or aggrieved parties may report violating content via creatives@creativeplatform.xyz. We commit to reviewing and acting upon valid reports promptly.
+   - **Repeat Violators:** We maintain a strict policy for repeat offenders. Users who repeatedly violate the AUP will have their accounts permanently terminated and their access to the platform revoked.
+
 ## Intellectual Property
 
 a. Software and product intellectual property: The Creative software applications, including their content, logos, trademarks, and other intellectual property associated with products such as Creative TV, Jukebox, Creative Bank, and Creative Pixels, are owned by Creative Platform, Inc. or its licensors, except where otherwise noted.
