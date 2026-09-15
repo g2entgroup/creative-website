@@ -36,10 +36,31 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         sitemap: {
+          lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          ignorePatterns: ['/tags/**', '/markdown-page', '/search'],
           filename: 'sitemap.xml',
+          createSitemapItems: async ({siteConfig, routes, defaultCreateSitemapItems}) => {
+            const items = await defaultCreateSitemapItems({siteConfig, routes});
+            const highPriority = ['/', '/creators', '/fans', '/brands', '/how-it-works'];
+            const mediumPriority = ['/community/intro', '/creativetv/intro', '/finance/intro', '/sitemap'];
+
+            return items.map((item) => {
+              const path = new URL(item.url).pathname.replace(/\/$/, '') || '/';
+
+              if (highPriority.includes(path)) {
+                return {...item, priority: 1.0};
+              }
+              if (mediumPriority.includes(path)) {
+                return {...item, priority: 0.8};
+              }
+              if (path.startsWith('/community/legal')) {
+                return {...item, priority: 0.6, changefreq: 'monthly'};
+              }
+              return item;
+            });
+          },
         },
         gtag: {
           trackingID: 'G-JYLMMFQ9L0',
@@ -242,6 +263,10 @@ const config = {
               {
                 label: 'Blog',
                 href: 'https://blog.creativeplatform.xyz',
+              },
+              {
+                label: 'Sitemap',
+                to: '/sitemap',
               },
               {
                 href: 'https://github.com/creativeplatform',
