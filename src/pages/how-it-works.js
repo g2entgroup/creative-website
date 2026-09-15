@@ -243,7 +243,7 @@ export default function HowItWorks() {
               <h2 className="how-it-works-page__cta-title">Ready to get started?</h2>
               <div className="how-it-works-page__cta-buttons">
                 <a href="https://tv.creativeplatform.xyz" className="thm-btn how-it-works-page__cta-btn">Visit Creative TV</a>
-                <a href="https://bank.creativeplatform.xyz" className="thm-btn how-it-works-page__cta-btn">Earn More with Creative Bank</a>
+                <a href="https://finance.creativeplatform.xyz" className="thm-btn how-it-works-page__cta-btn">Earn More with Creative Finance</a>
               </div>
             </div>
           </div>

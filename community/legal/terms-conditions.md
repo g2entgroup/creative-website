@@ -12,7 +12,7 @@ These Terms & Conditions ("Terms") govern your access to and use of the Creative
 
 The Creative ecosystem is operated by two affiliated entities:
 
-- **Creative Platform, Inc.** — a Delaware C-Corporation that builds, codes, and maintains the suite of Web3 applications, including Creative TV, Jukebox, Creative Bank, and Creative Pixels. Creative Platform, Inc. focuses on software creation and operation. It does not issue tokens.
+- **Creative Platform, Inc.** — a Delaware C-Corporation that builds, codes, and maintains the suite of Web3 applications, including Creative TV, Jukebox, Creative Finance, and Creative Pixels. Creative Platform, Inc. focuses on software creation and operation. It does not issue tokens.
 - **Creative Organization DAO LLC** — a Wyoming LLC that operates as a community-governed organization (DAO) and incubator. It manages the community ecosystem, oversees platform governance, and facilitates collaborations between creators, fans, and brands. It holds authority over token initiatives and manages the smart contracts associated with the community's economy.
 
 In these Terms, "Creative," "we," "us," and "our" refer to Creative Platform, Inc. and Creative Organization DAO LLC, as applicable to the services you use. References to software products and interfaces mean Creative Platform, Inc.; references to community programs, governance, and token initiatives mean Creative Organization DAO LLC.
@@ -61,7 +61,7 @@ To ensure the safety and integrity of the Creative platform, all users must adhe
 
 ## Intellectual Property
 
-a. Software and product intellectual property: The Creative software applications, including their content, logos, trademarks, and other intellectual property associated with products such as Creative TV, Jukebox, Creative Bank, and Creative Pixels, are owned by Creative Platform, Inc. or its licensors, except where otherwise noted.
+a. Software and product intellectual property: The Creative software applications, including their content, logos, trademarks, and other intellectual property associated with products such as Creative TV, Jukebox, Creative Finance, and Creative Pixels, are owned by Creative Platform, Inc. or its licensors, except where otherwise noted.
 b. Community and governance materials: Community marks, governance materials, and related ecosystem intellectual property associated with Creative Organization DAO LLC remain owned by Creative Organization DAO LLC or its licensors, as applicable.
 c. Restrictions: You may not use, reproduce, or distribute our intellectual property without prior written permission from the applicable owner.
 d. User Contributions: By contributing content or materials to the platform, you grant Creative Platform, Inc. and Creative Organization DAO LLC a non-exclusive, worldwide, royalty-free license to use, reproduce, modify, adapt, and distribute your contributions for the purpose of operating and promoting the Creative platform and community, as applicable.

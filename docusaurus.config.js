@@ -54,7 +54,7 @@ const config = {
       {
         id: 'creativebank',
         path: 'creativebank',
-        routeBasePath: 'creativebank',
+        routeBasePath: 'finance',
         sidebarPath: require.resolve('./sidebarsCreativebank.js'),
         editUrl: 'https://github.com/g2entgroup/creative-website/',
         sidebarCollapsible: true,
@@ -167,7 +167,7 @@ const config = {
                 label: "TV",
               },
               {
-                href: "https://bank.creativeplatform.xyz",
+                href: "https://finance.creativeplatform.xyz",
                 label: "Finance",
               },
               {
@@ -232,8 +232,8 @@ const config = {
                 to: '/creativetv/intro',
               },
               {
-                label: 'Creative Bank Docs',
-                to: '/creativebank/intro',
+                label: 'Creative Finance Docs',
+                to: '/finance/intro',
               },
               {
                 label: 'Whitepaper',
