@@ -223,7 +223,7 @@ export default function HowItWorks() {
                       <p>{step.tech}</p>
                     )}
                   </div>
-                  {step.protocols.length > 0 && (
+                  {!isSimpleMode && step.protocols.length > 0 && (
                     <div className="how-it-works-page__protocols">
                       {step.protocols.map((protocol, pIndex) => (
                         <span 
