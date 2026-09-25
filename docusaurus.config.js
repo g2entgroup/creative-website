@@ -136,7 +136,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'The Web3 platform for creators, fans and brands.<strong><a target="_blank" rel="noopener noreferrer" href="https://tv.creativeplatform.xyz"> Launch Creative TV</a></strong>',
+          'Creative Platform for creators, fans and brands.<strong><a target="_blank" rel="noopener noreferrer" href="https://tv.creativeplatform.xyz"> Launch Creative TV</a></strong>',
         backgroundColor: '#2B1A20',
         textColor: '#52F761',
         isCloseable: true,
