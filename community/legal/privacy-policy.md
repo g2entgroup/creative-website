@@ -56,7 +56,7 @@ We use the information we collect to:
 
 ## SMS / Text Messaging Program
 
-Creative Platform, Inc. offers an optional recurring SMS/text messaging program for customer care and marketing communications about features, drops, and ecosystem updates.
+Creative Platform, Inc. offers an optional recurring SMS/text messaging program for customer care and marketing communications about meeting scheduling, follow-ups with creators and authors, and platform features and updates.
 
 ### What SMS data we collect
 
