@@ -47,7 +47,7 @@ export default function Creators() {
                 <li className="creators-page__feature-item">
                   <FontAwesomeIcon icon={faCheckCircle} className="creators-page__check-icon" />
                   <span>
-                    <strong>Launch Your meToken:</strong> Build a supporter community around you.
+                    <strong>Launch Your meToken:</strong> Launch your meToken and grow a supporter community.
                   </span>
                 </li>
               </ul>
@@ -73,7 +73,7 @@ export default function Creators() {
                 <li className="creators-page__feature-item">
                   <FontAwesomeIcon icon={faCheckCircle} className="creators-page__check-icon" />
                   <span>
-                    <strong>Prediction Markets:</strong> Fans predict milestones and engage with your journey.
+                    <strong>Prediction Markets:</strong> Fans call your next milestone and ride along with your journey.
                   </span>
                 </li>
               </ul>

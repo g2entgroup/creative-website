@@ -57,16 +57,7 @@ const Faq = () => {
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>A: It is your personal brand currency. Think of it like a stock for your personal brand.
-
-                                        <ul>
-                                        <li>For You: You earn it when people engage with your content.</li>
-
-                                        <li>For Fans: They can buy and hold your meToken to support you (patronage) or because they believe your value will grow (speculation).</li>
-
-                                        <li>For Access: You can even require fans to hold your meToken to access exclusive live streams or premium content.</li>
-                                        </ul>
-                                        </p>
+                                        <p>A: Your meToken is your personal brand currency. Fans hold it to back you and unlock exclusive live streams and premium content.</p>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +65,7 @@ const Faq = () => {
                         <div className="accrodion ">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>Q: How do I turn my tokens into cash?</h4>
+                                    <h4>Q: How do I cash out?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
