@@ -58,16 +58,10 @@ const Testimonial = () => {
                                         <span onClick={goPrev} className="pager-item" data-slide-index="1"><img
                                             src="img/testimonials/artist.png"
                                             alt="Awesome Image"/></span>
-                                        <span onClick={goNext} className="pager-item" data-slide-index="2"><img
-                                            src="img/testimonials/saxaphone.png"
-                                            alt="Awesome Image"/></span>
-                                        <span onClick={goPrev} className="pager-item" data-slide-index="3"><img
-                                            src="img/testimonials/poet.png"
-                                            alt="Awesome Image"/></span>
-                                        <span  onClick={goNext} className="pager-item" data-slide-index="4"><img
+                                        <span  onClick={goNext} className="pager-item" data-slide-index="2"><img
                                             src="img/testimonials/writer.png"
                                             alt="Awesome Image"/></span>
-                                        <span  onClick={goPrev} className="pager-item" data-slide-index="5"><img
+                                        <span  onClick={goPrev} className="pager-item" data-slide-index="3"><img
                                             src="img/testimonials/actress.png"
                                             alt="Awesome Image"/></span>
                                     </div>
@@ -79,15 +73,9 @@ const Testimonial = () => {
                                             src="img/testimonials/testi-1-2.jpg"
                                             alt="Awesome Image"/></a>
                                         <a href="#" className="pager-item" data-slide-index="2"><img
-                                            src="img/testimonials/testi-1-3.jpg"
-                                            alt="Awesome Image"/></a>
-                                        <a href="#" className="pager-item" data-slide-index="3"><img
-                                            src="img/testimonials/testi-1-4.jpg"
-                                            alt="Awesome Image"/></a>
-                                        <a href="#" className="pager-item" data-slide-index="4"><img
                                             src="img/testimonials/testi-1-5.jpg"
                                             alt="Awesome Image"/></a>
-                                        <a href="#" className="pager-item" data-slide-index="5"><img
+                                        <a href="#" className="pager-item" data-slide-index="3"><img
                                             src="img/testimonials/testi-1-6.jpg"
                                             alt="Awesome Image"/></a>
                                     </div>
@@ -119,18 +107,6 @@ const Testimonial = () => {
                                         <div className="testimonials__one__single">
                                             <p>My production speed tripled overnight. I had a folder full of lyrics but no time to shoot videos. Using the AI agents on the Creative Platform, I turned my text into full visualizers in minutes. It feels like having a production studio in my pocket. This is the future of content creation.</p>
                                             <h3>Terrilyn Werme, Digital Artist & Producer</h3>
-                                        </div>
-                                    </li>
-                                    <li className="slide-item">
-                                        <div className="testimonials__one__single">
-                                            <p>Creative Finance made it simple for my team to manage our earnings and move money without the headache. It’s the first financial dashboard that actually understands what a creator needs.</p>
-                                            <h3>Kyle Demayo, Founder</h3>
-                                        </div>
-                                    </li>
-                                    <li className="slide-item">
-                                        <div className="testimonials__one__single">
-                                            <p>Enterprise-grade trust for independent creators. In an era of deepfakes, provenance is everything. Creative Platform’s integration of C2PA standards ensures that our brand collaborations are verified and secure—so fans and partners can trust what they see.</p>
-                                            <h3>Minta Hadad, Brand Partnerships Director</h3>
                                         </div>
                                     </li>
                                     <li className="slide-item">

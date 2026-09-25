@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <Layout
       title="Creative Platform — get discovered, get paid, own your audience"
-      description="Creative Platform helps creators get discovered, get paid, and own their audience—with Creative TV, tools for fans, and partnerships for brands."
+      description="Get discovered, get paid, and own your audience on Creative TV."
       >
       <HomepageHeader />
       <main>

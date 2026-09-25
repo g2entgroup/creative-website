@@ -22,7 +22,7 @@ const Faq = () => {
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>A: Creative Platform is a creator-first home for musicians, video producers, and digital artists to get discovered, collaborate with fans and brands, and earn from their work on Creative TV and connected apps.</p>
+                                        <p>A: Creative Platform is home for musicians, video producers, and digital artists. Get discovered, work with fans and brands, and earn on Creative TV.</p>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ const Faq = () => {
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>A: You earn when fans stream your music, watch your videos, and support your work. Creative Finance helps you track payouts, pay collaborators, and move earnings to your bank account from your profile.</p>
+                                        <p>A: You earn when fans stream and support your work. Creative Finance tracks payouts and sends earnings to your bank.</p>
                                     </div>
                                 </div>
                             </div>
@@ -78,14 +78,7 @@ const Faq = () => {
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>A: It’s a simple 3-step process inside Creative Finance:
-
-<ol><li>Cash out: Convert your creator earnings through Creative Finance.</li>
-
-<li>Convert: Move funds into the payout currency you need.</li>
-
-<li>Withdraw: Use the Finance Tab in your profile to send those funds directly to your bank account.</li>
-</ol></p>
+                                        <p>A: Use Creative Finance in three quick steps. Cash out earnings, convert if needed, then withdraw to your bank from your profile.</p>
                                     </div>
                                 </div>
                             </div>
