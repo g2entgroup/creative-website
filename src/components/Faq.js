@@ -22,7 +22,7 @@ const Faq = () => {
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>A: The Creative Platform is a gamified blockchain platform for independent creators, fans, and brands to collaborate directly and earn rewards using P2E DeFi incentives.</p>
+                                        <p>A: Creative Platform is a creator-first home for musicians, video producers, and digital artists to get discovered, collaborate with fans and brands, and earn from their work on Creative TV and connected apps.</p>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ const Faq = () => {
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>A: You get paid through your own personal economy. Every creator on the platform gets their own meToken. When fans stream your music, watch your videos, or want to support you, you earn meTokens. Because your meToken is tied to stablecoins (USDC, USDS, DAI, GHO, and USDT), you can swap your earnings and withdraw directly to your real-world bank account via the Finance Tab on your profile.</p>
+                                        <p>A: You earn when fans stream your music, watch your videos, and support your work. Creative Finance helps you track payouts, pay collaborators, and move earnings to your bank account from your profile.</p>
                                     </div>
                                 </div>
                             </div>
@@ -80,9 +80,9 @@ const Faq = () => {
                                     <div className="inner">
                                         <p>A: It’s a simple 3-step process inside Creative Finance:
 
-<ol><li>Sell: Sell your meTokens for stablecoins / stable cryptocurrencies — including USDC, USDS, DAI, GHO, and USDT.</li>
+<ol><li>Cash out: Convert your creator earnings through Creative Finance.</li>
 
-<li>Convert: If needed, swap your stablecoins into USDC.</li>
+<li>Convert: Move funds into the payout currency you need.</li>
 
 <li>Withdraw: Use the Finance Tab in your profile to send those funds directly to your bank account.</li>
 </ol></p>

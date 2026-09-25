@@ -32,7 +32,7 @@ const CreatorsModal = ({ show, onHide }) => {
             Stop Being a Product. Start Being a Platform.
           </h2>
           <p className="creators-modal__subheadline">
-            At Creative TV, you keep 100% of your revenue and total control over your intellectual property. From your first upload to your first prediction market, we provide the onchain tools to turn your art into an ecosystem.
+            At Creative TV, you keep 100% of your revenue and total control over your intellectual property. From your first upload to your next release, we give you the tools to grow your audience and turn your art into a lasting business.
           </p>
 
           <div className="creators-modal__section">
@@ -41,25 +41,25 @@ const CreatorsModal = ({ show, onHide }) => {
               <li className="creators-modal__feature-item">
                 <FontAwesomeIcon icon={faCheckCircle} className="creators-modal__check-icon" />
                 <span>
-                  <strong>Decentralized Hosting:</strong> Upload music videos, podcasts, and original films/animations without fear of de-platforming.
+                  <strong>Reliable Hosting:</strong> Upload music videos, podcasts, and original films/animations without fear of de-platforming.
                 </span>
               </li>
               <li className="creators-modal__feature-item">
                 <FontAwesomeIcon icon={faCheckCircle} className="creators-modal__check-icon" />
                 <span>
-                  <strong>Onchain IP Management:</strong> Register your work via Story Protocol to secure your rights globally and instantly.
+                  <strong>IP Management:</strong> Register your work via Story Protocol to secure your rights globally and instantly.
                 </span>
               </li>
               <li className="creators-modal__feature-item">
                 <FontAwesomeIcon icon={faCheckCircle} className="creators-modal__check-icon" />
                 <span>
-                  <strong>Collaborative Splits:</strong> Automatically distribute earnings to your team with smart contract revenue splits.
+                  <strong>Collaborative Splits:</strong> Automatically distribute earnings to your team with built-in revenue splits.
                 </span>
               </li>
               <li className="creators-modal__feature-item">
                 <FontAwesomeIcon icon={faCheckCircle} className="creators-modal__check-icon" />
                 <span>
-                  <strong>Launch Your meToken:</strong> Create a tradeable social token to build a liquid economy around your brand.
+                  <strong>Launch Your meToken:</strong> Build a supporter community around your brand with your own creator currency.
                 </span>
               </li>
             </ul>

@@ -123,13 +123,13 @@ const Testimonial = () => {
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>The easiest bridge between crypto and cash. Most Web3 platforms are too complicated for my team. Creative Finance made it simple to manage our earnings and move between crypto and fiat without the headache. It’s the first financial dashboard that actually understands what a creator needs.</p>
-                                            <h3>Kyle Demayo, DAO Founder</h3>
+                                            <p>Creative Finance made it simple for my team to manage our earnings and move money without the headache. It’s the first financial dashboard that actually understands what a creator needs.</p>
+                                            <h3>Kyle Demayo, Founder</h3>
                                         </div>
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>Enterprise-grade trust for independent creators. In an era of deepfakes, provenance is everything. Creative Platform’s integration of C2PA standards ensures that our brand collaborations are verified and secure. It’s the safety of Web2 with the innovation of Web3.</p>
+                                            <p>Enterprise-grade trust for independent creators. In an era of deepfakes, provenance is everything. Creative Platform’s integration of C2PA standards ensures that our brand collaborations are verified and secure—so fans and partners can trust what they see.</p>
                                             <h3>Minta Hadad, Brand Partnerships Director</h3>
                                         </div>
                                     </li>
