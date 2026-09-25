@@ -73,7 +73,7 @@ const CreatorsModal = ({ show, onHide }) => {
               <li className="creators-modal__feature-item">
                 <FontAwesomeIcon icon={faCheckCircle} className="creators-modal__check-icon" />
                 <span>
-                  <strong>Go Live:</strong> Unlock high-performance livestreaming powered by Livepeer.
+                  <strong>Go Live:</strong> Stream live with Livepeer.
                 </span>
               </li>
               <li className="creators-modal__feature-item">
