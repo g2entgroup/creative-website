@@ -19,7 +19,7 @@ export default function Creators() {
                 Stop Being a Product. <br/>Start Being a Platform.
               </h1>
               <p className="creators-page__subheadline">
-                On Creative TV, keep 100% of revenue and your IP. Grow your audience and build a lasting business from your first upload.
+                On Creative Platform, keep 100% of revenue and your IP. Grow your audience and build a lasting business from your first upload.
               </p>
             </div>
 
