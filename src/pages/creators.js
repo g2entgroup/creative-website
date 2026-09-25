@@ -61,7 +61,7 @@ export default function Creators() {
                 <li className="creators-page__feature-item">
                   <FontAwesomeIcon icon={faCheckCircle} className="creators-page__check-icon" />
                   <span>
-                    <strong>Go Live:</strong> Stream live with Livepeer.
+                    <strong>Go Live:</strong> Go live and stream to your fans.
                   </span>
                 </li>
                 <li className="creators-page__feature-item">

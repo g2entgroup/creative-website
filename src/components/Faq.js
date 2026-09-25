@@ -57,7 +57,7 @@ const Faq = () => {
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>A: Your meToken is your personal brand currency. Fans hold it to back you and unlock exclusive live streams and premium content. meTokens are issued on Base, the primary network Creative uses for onchain features today.</p>
+                                        <p>A: Your meToken is your personal brand currency. Fans hold it to back you and unlock exclusive live streams and premium content.</p>
                                     </div>
                                 </div>
                             </div>
