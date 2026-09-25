@@ -11,7 +11,7 @@ export default function Brands() {
   return (
     <Layout 
       title="Brands - Authentic Connection at Scale" 
-      description="Partner with innovative creators for authentic campaigns on Creative TV."
+      description="Partner with innovative creators for authentic campaigns across Creative Platform."
     >
       <div className="brands-page">
         <Container>
@@ -58,7 +58,7 @@ export default function Brands() {
                 <li className="brands-page__feature-item">
                   <FontAwesomeIcon icon={faCheckCircle} className="brands-page__check-icon" />
                   <span>
-                    <strong>Native Advertising:</strong> Gain premium placement and advertising opportunities across the Creative TV ecosystem.
+                    <strong>Native Advertising:</strong> Gain premium placement and advertising opportunities across Creative Platform products, including Creative TV.
                   </span>
                 </li>
                 <li className="brands-page__feature-item">

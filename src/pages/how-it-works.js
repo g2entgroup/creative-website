@@ -115,15 +115,15 @@ export default function HowItWorks() {
       number: 1,
       title: "Join the Movement (Login in Seconds)",
       simple: "Sign in with your email or social account—no wallet setup required.",
-      tech: "Using Account Kit (Social Auth), you can join with your existing email or social accounts. Account Abstraction creates a smart contract wallet behind the scenes, so you can use Creative TV without managing seed phrases yourself. Onchain wallet and contract interactions for the product today run on Base (Coinbase's Layer 2 network)—Creative's primary supported chain.",
+      tech: "Using Account Kit (Social Auth), you can join Creative Platform with your existing email or social accounts. Account Abstraction creates a smart contract wallet behind the scenes, so you can use TV, Finance, and other products without managing seed phrases yourself. Onchain wallet and contract interactions for the product today run on Base (Coinbase's Layer 2 network)—Creative Platform's primary supported chain.",
       protocols: ["Base"]
     },
     {
       number: 2,
       title: "Choose Your Role (Unlock Your Key)",
-      simple: "Pick your role: Creator, Fan, or Brand. Your membership key stays with you as you grow.",
-      tech: "Memberships are issued through Unlock Protocol as NFT Keys you control—not just a recurring login. Start free or upgrade into a Creator, Fan (Professional), or Brand membership, each with its own access and tools.",
-      protocols: ["Unlock Protocol"]
+      simple: "Pick your role: Creator, Fan, or Brand. Your membership key stays with you as you grow. Comment on the shows and music you love and join the conversation in the feed.",
+      tech: "Memberships are issued through Unlock Protocol as NFT Keys you control—not just a recurring login. Start free or upgrade into a Creator, Fan (Professional), or Brand membership, each with its own access and tools. Social feeds and comments on videos, music, and posts are powered by Lens Protocol so fans engage in-product—not only on third-party chat apps.",
+      protocols: ["Unlock Protocol", "Lens"]
     },
     {
       number: 3,
@@ -134,9 +134,9 @@ export default function HowItWorks() {
     },
     {
       number: 4,
-      title: "Earn & Engage (Splits, meTokens & Markets)",
+      title: "Get Paid & Engage (Splits, meTokens & Markets)",
       simple: "Collaborators get paid automatically when revenue comes in. Launch your meToken so fans can back you and unlock exclusive streams and premium content. Fans call your next milestone and ride along with your journey through Prediction Markets.",
-      tech: "Base: meTokens, revenue-split contracts, and on-platform Prediction Markets are deployed on Base—the first and primary chain Creative supports today. Revenue Splits: Smart contracts on Base route earnings to you and collaborators according to the split you configure when payments arrive—no manual invoicing for each payout. meTokens: Your meToken is your personal brand currency. Fans hold it to back you and unlock exclusive live streams and premium content; meToken balances and prices can change and are not securities or equity. Prediction Markets: Reality.eth powers community Prediction Markets where fans forecast milestones for engagement—not cash wagering. Fans call your next milestone and ride along with your journey.",
+      tech: "Base: meTokens, revenue-split contracts, and on-platform Prediction Markets are deployed on Base—the first and primary chain Creative Platform supports today. Revenue Splits: Smart contracts on Base route earnings to you and collaborators according to the split you configure when payments arrive—no manual invoicing for each payout. meTokens: Your meToken is your personal brand currency. Fans hold it to back you and unlock exclusive live streams and premium content; meToken balances and prices can change and are not an investment or ownership stake. Prediction Markets: Reality.eth powers community Prediction Markets where fans forecast milestones for engagement—not cash wagering. Fans call your next milestone and ride along with your journey.",
       protocols: ["Base", "Reality.eth"]
     },
     {
@@ -151,7 +151,7 @@ export default function HowItWorks() {
   return (
     <Layout 
       title="How It Works - The Ecosystem" 
-      description="Everything you need to create, connect, and grow in one place—streaming, community, and tools powered by the Creative Organization DAO."
+      description="How Creative Platform works for creators, fans, and brands—TV, Finance, Mixtape, Pixels, Beat Me, Books, and more, supported by the Creative Organization DAO."
     >
       <div className="how-it-works-page" ref={pageRef}>
         <Container>
@@ -164,7 +164,7 @@ export default function HowItWorks() {
                 Everything you need to create, connect, and grow—all in one place.
               </p>
               <p className="how-it-works-page__intro">
-                Creative TV brings together streaming, community, and creator tools—supported by the Creative Organization DAO. Use the toggle below for a quick overview or the technical details.
+                Creative Platform is the ecosystem for creators, fans, and brands—products include Creative TV (streaming), Creative Finance (payouts and treasury tools), Mixtape, Pixels, Beat Me, and Books. Use the toggle below for a quick overview or the technical details.
               </p>
               
               <div className="how-it-works-page__toggle">

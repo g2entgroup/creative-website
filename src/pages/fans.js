@@ -11,7 +11,7 @@ export default function Fans() {
   return (
     <Layout 
       title="Fans - From Viewer to Superfan" 
-      description="Discover creators on Creative TV, hold meTokens for exclusive access, and take part in the community."
+      description="Discover creators on Creative Platform, hold meTokens for exclusive access, and take part in the community."
     >
       <div className="fans-page">
         <Container>
@@ -22,7 +22,7 @@ export default function Fans() {
                 Don't Just Watch. <br/>Show Up for Creators You Love.
               </h1>
               <p className="fans-page__subheadline">
-                Discover new work on Creative TV, back creators you believe in, and unlock member-only streams and premium content.
+                Discover new work across Creative Platform, back creators you believe in, and unlock member-only streams and premium content on Creative TV.
               </p>
             </div>
 
@@ -44,7 +44,7 @@ export default function Fans() {
                 <li className="fans-page__feature-item">
                   <FontAwesomeIcon icon={faCheckCircle} className="fans-page__check-icon" />
                   <span>
-                    <strong>Participate:</strong> Join the conversation in Discord, share your favorites, and take part in Prediction Markets—call the next milestone and ride along with a creator&apos;s journey.
+                    <strong>Participate:</strong> Comment on the shows and music you love and join the conversation in the feed. Take part in Prediction Markets—call the next milestone and ride along with a creator&apos;s journey.
                   </span>
                 </li>
               </ul>
@@ -75,7 +75,7 @@ export default function Fans() {
                 </li>
               </ul>
               <p className="fans-page__disclaimer">
-                Holding a meToken is for access and community participation—not an investment, security, or ownership stake in a creator.
+                Holding a meToken is for access and community participation—not an investment or ownership stake in a creator.
               </p>
             </div>
           </div>
