@@ -115,8 +115,8 @@ export default function HowItWorks() {
       number: 1,
       title: "Join the Movement (Login in Seconds)",
       simple: "Sign in with your email or social account—no wallet setup required.",
-      tech: "Using Account Kit (Social Auth), you can join with your existing email or social accounts. Account Abstraction creates a smart contract wallet behind the scenes, so you can use Creative TV without managing seed phrases yourself.",
-      protocols: []
+      tech: "Using Account Kit (Social Auth), you can join with your existing email or social accounts. Account Abstraction creates a smart contract wallet behind the scenes, so you can use Creative TV without managing seed phrases yourself. Onchain wallet and contract interactions for the product today run on Base (Coinbase's Layer 2 network)—Creative's primary supported chain.",
+      protocols: ["Base"]
     },
     {
       number: 2,
@@ -136,8 +136,8 @@ export default function HowItWorks() {
       number: 4,
       title: "Earn & Engage (Splits, meTokens & Markets)",
       simple: "Collaborators get paid automatically when revenue comes in. Launch your meToken so fans can back you and unlock exclusive streams and premium content. Fans call your next milestone and ride along with your journey through Prediction Markets.",
-      tech: "Revenue Splits: Smart contracts route earnings to you and collaborators according to the split you configure when payments arrive—no manual invoicing for each payout. meTokens: Your meToken is your personal brand currency. Fans hold it to back you and unlock exclusive live streams and premium content; meToken balances and prices can change and are not securities or equity. Prediction Markets: Reality.eth powers community Prediction Markets where fans forecast milestones for engagement—not cash wagering. Fans call your next milestone and ride along with your journey.",
-      protocols: ["Reality.eth"]
+      tech: "Base: meTokens, revenue-split contracts, and on-platform Prediction Markets are deployed on Base—the first and primary chain Creative supports today. Revenue Splits: Smart contracts on Base route earnings to you and collaborators according to the split you configure when payments arrive—no manual invoicing for each payout. meTokens: Your meToken is your personal brand currency. Fans hold it to back you and unlock exclusive live streams and premium content; meToken balances and prices can change and are not securities or equity. Prediction Markets: Reality.eth powers community Prediction Markets where fans forecast milestones for engagement—not cash wagering. Fans call your next milestone and ride along with your journey.",
+      protocols: ["Base", "Reality.eth"]
     },
     {
       number: 5,
