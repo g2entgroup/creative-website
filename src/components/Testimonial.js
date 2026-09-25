@@ -123,13 +123,13 @@ const Testimonial = () => {
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>The easiest bridge between earnings and cash for my team. Creative Finance made it simple to manage our money without the headache—it’s the first dashboard that actually understands what a creator needs.</p>
+                                            <p>The easiest bridge between earnings and cash. Creative Finance made it simple to manage our money—it’s the first dashboard that understands creators.</p>
                                             <h3>Kyle Demayo, Founder</h3>
                                         </div>
                                     </li>
                                     <li className="slide-item">
                                         <div className="testimonials__one__single">
-                                            <p>Enterprise-grade trust for independent creators. In an era of deepfakes, provenance is everything—and Creative Platform’s C2PA integration keeps our brand collaborations verified and secure.</p>
+                                            <p>Enterprise-grade trust for independent creators. Creative Platform helps our brand collaborations stay verified and secure.</p>
                                             <h3>Minta Hadad, Brand Partnerships Director</h3>
                                         </div>
                                     </li>
