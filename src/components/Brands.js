@@ -61,9 +61,7 @@ const Brands = () => {
                     <div className="item">
                         <a href='https://daohaus.fun'><img src="img/brand/daohaus.png" alt="daohaus"/></a>
                     </div>
-                    <div className="item">
-                       <a href='https://poap.xyz'><img src="img/brand/poap.png" alt="poap"/></a>
-                    </div>
+
                 </Swiper>
 
                 </div>
