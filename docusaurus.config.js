@@ -179,6 +179,11 @@ const config = {
             position: 'right',
           },
           {
+            href: 'https://creative.xmerch.app',
+            label: 'Merch',
+            position: 'right',
+          },
+          {
             type: 'dropdown',
             label: 'Creative Products',
             position: 'right',
